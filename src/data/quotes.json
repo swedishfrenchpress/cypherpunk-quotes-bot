@@ -1477,6 +1477,45 @@
         "cryptography",
         "freedom"
       ]
+    },
+    {
+      "id": "amir-taaki-001",
+      "text": "The internet is a tool of freedom and self-determination. Meddling in its mechanics is destructive. Whenever a website is blocked, a protocol is corrupted at some low level or undesirable traffic shaping occurs then seismic ripples of censorship and destruction lead to degradation of the network. The internet is fundamental to humanity, and must be protected at all costs.",
+      "author": "Amir Taaki",
+      "source": "The libbitcoin Manifesto",
+      "year": 2013,
+      "tags": [
+        "internet",
+        "freedom",
+        "censorship",
+        "resistance"
+      ]
+    },
+    {
+      "id": "amir-taaki-002",
+      "text": "Bitcoin is a tool of resistance gifted to us by Satoshi. The idea has escaped and the idea of cryptocurrency will not be stopped.",
+      "author": "Amir Taaki",
+      "source": "The libbitcoin Manifesto",
+      "year": 2013,
+      "tags": [
+        "bitcoin",
+        "resistance",
+        "cryptocurrency",
+        "freedom"
+      ]
+    },
+    {
+      "id": "amir-taaki-003",
+      "text": "Truth happens. We will succeed. Don't wait around for others to take action. We must dive head first without regard for consequences, and break the inertia of passivity.",
+      "author": "Amir Taaki",
+      "source": "The libbitcoin Manifesto",
+      "year": 2013,
+      "tags": [
+        "activism",
+        "resistance",
+        "action",
+        "freedom"
+      ]
     }
   ]
 }
