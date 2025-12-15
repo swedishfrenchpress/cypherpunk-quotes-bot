@@ -1516,6 +1516,31 @@
         "action",
         "freedom"
       ]
+    },
+    {
+      "id": "hal-finney-008",
+      "text": "I've noticed that cryptographic graybeards (I was in my mid 50's) tend to get cynical. I was more idealistic; I have always loved crypto, the mystery and the paradox of it.",
+      "author": "Hal Finney",
+      "source": "Bitcoin and Me",
+      "year": 2013,
+      "tags": [
+        "cryptography",
+        "idealism",
+        "cypherpunk"
+      ]
+    },
+    {
+      "id": "nick-szabo-005",
+      "text": "Bitcoin is not a list of cryptographic features, it's a very complex system of interacting mathematics and protocols in pursuit of what was a very unpopular goal.",
+      "author": "Nick Szabo",
+      "source": "Bitcoin, what took ye so long?",
+      "year": 2011,
+      "tags": [
+        "bitcoin",
+        "cryptography",
+        "protocols",
+        "systems"
+      ]
     }
   ]
 }
