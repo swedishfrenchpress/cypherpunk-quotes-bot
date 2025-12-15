@@ -173,19 +173,43 @@ async function publishToRelays(event: NostrEvent, relayUrls: string[]): Promise<
   const results: { relay: string; success: boolean; error?: string }[] = [];
   
   for (const url of relayUrls) {
+    let relay: Relay | null = null;
     try {
       console.log(`Connecting to ${url}...`);
-      const relay = await Relay.connect(url);
+      relay = await Relay.connect(url);
       
-      await relay.publish(event);
-      console.log(`✓ Published to ${url}`);
-      results.push({ relay: url, success: true });
+      // Publish the event and wait for confirmation
+      const pub = relay.publish(event);
       
-      relay.close();
+      // Wait for the relay to confirm with OK message
+      await new Promise<void>((resolve, reject) => {
+        const timeout = setTimeout(() => {
+          reject(new Error('Timeout waiting for relay confirmation'));
+        }, 10000); // 10 second timeout
+        
+        pub.on('ok', () => {
+          clearTimeout(timeout);
+          console.log(`✓ Published to ${url} (confirmed)`);
+          results.push({ relay: url, success: true });
+          resolve();
+        });
+        
+        pub.on('failed', (reason: string) => {
+          clearTimeout(timeout);
+          reject(new Error(`Relay rejected: ${reason}`));
+        });
+      });
+      
     } catch (error) {
       const message = error instanceof Error ? error.message : 'Unknown error';
       console.log(`✗ Failed to publish to ${url}: ${message}`);
       results.push({ relay: url, success: false, error: message });
+    } finally {
+      if (relay) {
+        // Give a moment before closing
+        await new Promise(resolve => setTimeout(resolve, 500));
+        relay.close();
+      }
     }
   }
   
