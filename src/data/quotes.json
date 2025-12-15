@@ -88,6 +88,18 @@
       ]
     },
     {
+      "id": "satoshi-009",
+      "text": "Writing a description for this thing for general audiences is bloody hard. There's nothing to relate it to.",
+      "author": "Satoshi Nakamoto",
+      "source": "BitcoinTalk Forum",
+      "year": 2010,
+      "tags": [
+        "bitcoin",
+        "communication",
+        "innovation"
+      ]
+    },
+    {
       "id": "tim-may-001",
       "text": "A specter is haunting the modern world, the specter of crypto anarchy.",
       "author": "Tim May",
@@ -391,6 +403,18 @@
       ]
     },
     {
+      "id": "hal-finney-007",
+      "text": "I would like to die peacefully in my sleep, knowing that I helped create a better world for those who come after me.",
+      "author": "Hal Finney",
+      "source": "BitcoinTalk Forum",
+      "year": 2013,
+      "tags": [
+        "legacy",
+        "hope",
+        "future"
+      ]
+    },
+    {
       "id": "wei-dai-001",
       "text": "I am fascinated by Tim May's crypto-anarchy. Unlike the communities traditionally associated with the word 'anarchy', in a crypto-anarchy the government is not temporarily destroyed but permanently forbidden and permanently unnecessary.",
       "author": "Wei Dai",
@@ -412,6 +436,18 @@
         "security",
         "trust",
         "decentralization"
+      ]
+    },
+    {
+      "id": "nick-szabo-002",
+      "text": "A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises.",
+      "author": "Nick Szabo",
+      "source": "Smart Contracts: Building Blocks for Digital Markets",
+      "year": 1996,
+      "tags": [
+        "smart-contracts",
+        "digital",
+        "protocols"
       ]
     },
     {
@@ -739,6 +775,18 @@
       ]
     },
     {
+      "id": "antonopoulos-001",
+      "text": "Bitcoin isn't just money for the internet. It's a new form of money that is native to the internet.",
+      "author": "Andreas Antonopoulos",
+      "source": "Mastering Bitcoin",
+      "year": 2014,
+      "tags": [
+        "bitcoin",
+        "internet",
+        "money"
+      ]
+    },
+    {
       "id": "antonopoulos-003",
       "text": "Bitcoin is not just a currency. It's a platform for trust.",
       "author": "Andreas Antonopoulos",
@@ -748,6 +796,18 @@
         "bitcoin",
         "trust",
         "platform"
+      ]
+    },
+    {
+      "id": "fiatjaf-001",
+      "text": "The simplest open protocol that is able to create a censorship-resistant global social network.",
+      "author": "fiatjaf",
+      "source": "Nostr Protocol Documentation",
+      "year": 2020,
+      "tags": [
+        "nostr",
+        "protocol",
+        "censorship-resistance"
       ]
     },
     {
@@ -990,6 +1050,18 @@
       ]
     },
     {
+      "id": "phil-zimmermann-009",
+      "text": "I am an engineer, not a mathematician. I try to find practical solutions to actual problems.",
+      "author": "Philip Zimmermann",
+      "source": "GrepLaw",
+      "year": 2003,
+      "tags": [
+        "cryptography",
+        "engineering",
+        "practicality"
+      ]
+    },
+    {
       "id": "hellman-001",
       "text": "What is the greatest unsolved problem in cryptography today? Lack of user awareness.",
       "author": "Martin Hellman",
@@ -1086,6 +1158,30 @@
         "cryptography",
         "trust",
         "key-distribution"
+      ]
+    },
+    {
+      "id": "diffie-006",
+      "text": "Cryptography was a technique that did not require your trusting other people.",
+      "author": "Whitfield Diffie",
+      "source": "ITAS Interview",
+      "year": 1992,
+      "tags": [
+        "cryptography",
+        "trust",
+        "privacy"
+      ]
+    },
+    {
+      "id": "merkle-002",
+      "text": "A hash function should be a one-way function — easy to compute but difficult to reverse.",
+      "author": "Ralph Merkle",
+      "source": "A Certified Digital Signature",
+      "year": 1989,
+      "tags": [
+        "hash-function",
+        "cryptography",
+        "one-way"
       ]
     }
   ]
