@@ -1426,6 +1426,19 @@
         "freedom",
         "bureaucracy"
       ]
+    },
+    {
+      "id": "american-scientist-001",
+      "text": "The cypherpunks were troublemakers: controversial, radical, unrelenting, but also practical. They made things.",
+      "author": "American Scientist",
+      "source": "Cypherpunks Write Code",
+      "year": null,
+      "tags": [
+        "cypherpunk",
+        "practical",
+        "code",
+        "activism"
+      ]
     }
   ]
 }
