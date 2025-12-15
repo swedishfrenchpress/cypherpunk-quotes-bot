@@ -179,14 +179,6 @@
       "tags": ["internet", "surveillance", "totalitarianism"]
     },
     {
-      "id": "julian-assange-006",
-      "text": "Man is least himself when he talks in his own person. Give him a mask, and he will tell you the truth.",
-      "author": "Julian Assange",
-      "source": "Cypherpunks: Freedom and the Future of the Internet",
-      "year": 2012,
-      "tags": ["anonymity", "truth", "identity"]
-    },
-    {
       "id": "phil-zimmermann-001",
       "text": "If privacy is outlawed, only outlaws will have privacy.",
       "author": "Philip Zimmermann",
@@ -379,14 +371,6 @@
       "tags": ["free-speech", "expression", "conformity"]
     },
     {
-      "id": "jpb-005",
-      "text": "The best way to invent the future is to predict it.",
-      "author": "John Perry Barlow",
-      "source": "Various speeches",
-      "year": 1995,
-      "tags": ["future", "innovation", "prophecy"]
-    },
-    {
       "id": "jpb-006",
       "text": "Relying on the government to protect your privacy is like asking a peeping tom to install your window blinds.",
       "author": "John Perry Barlow",
@@ -529,14 +513,6 @@
       "source": "Various interviews",
       "year": 2014,
       "tags": ["crypto-anarchy", "state", "money"]
-    },
-    {
-      "id": "cody-wilson-003",
-      "text": "Information wants to be free, and it will find a way.",
-      "author": "Cody Wilson",
-      "source": "Come and Take It",
-      "year": 2016,
-      "tags": ["information", "freedom", "censorship"]
     },
     {
       "id": "ross-ulbricht-001",
@@ -873,30 +849,6 @@
       "source": "Time Magazine",
       "year": 1993,
       "tags": ["censorship", "internet", "freedom", "resilience"]
-    },
-    {
-      "id": "gilmore-002",
-      "text": "Privacy is not about hiding something. It's about being able to control what you reveal.",
-      "author": "John Gilmore",
-      "source": "Various interviews",
-      "year": 1990,
-      "tags": ["privacy", "control", "freedom"]
-    },
-    {
-      "id": "gilmore-003",
-      "text": "Cryptography is fundamentally about protecting human rights. The right to privacy, the right to free speech, the right to political dissent.",
-      "author": "John Gilmore",
-      "source": "Electronic Frontier Foundation",
-      "year": 1991,
-      "tags": ["cryptography", "human-rights", "privacy", "free-speech"]
-    },
-    {
-      "id": "gilmore-004",
-      "text": "The government should not be able to read your mail, listen to your phone calls, or monitor your internet traffic without a warrant.",
-      "author": "John Gilmore",
-      "source": "EFF statements",
-      "year": 1990,
-      "tags": ["privacy", "surveillance", "government", "warrants"]
     },
     {
       "id": "gilmore-006",
