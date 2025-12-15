@@ -1183,6 +1183,69 @@
         "cryptography",
         "one-way"
       ]
+    },
+    {
+      "id": "snowden-006",
+      "text": "Bulk collection, which should become one of the dirtiest phrases in the language if we have any kind of decency.",
+      "author": "Edward Snowden",
+      "source": "Joe Rogan Experience",
+      "year": 2019,
+      "tags": [
+        "surveillance",
+        "bulk-collection",
+        "mass-surveillance"
+      ]
+    },
+    {
+      "id": "snowden-007",
+      "text": "It's not data that's being exploited. It's people that are being exploited. It's not data that's being manipulated, it's you that's being manipulated.",
+      "author": "Edward Snowden",
+      "source": "Joe Rogan Experience",
+      "year": 2019,
+      "tags": [
+        "surveillance",
+        "privacy",
+        "exploitation",
+        "manipulation"
+      ]
+    },
+    {
+      "id": "snowden-008",
+      "text": "The scandal isn't how they're breaking the law. The scandal is that they don't have to break the law.",
+      "author": "Edward Snowden",
+      "source": "Joe Rogan Experience",
+      "year": 2019,
+      "tags": [
+        "surveillance",
+        "law",
+        "government",
+        "legal"
+      ]
+    },
+    {
+      "id": "snowden-009",
+      "text": "They have built a legal paradigm that presumes records collected about us do not belong to us.",
+      "author": "Edward Snowden",
+      "source": "Joe Rogan Experience",
+      "year": 2019,
+      "tags": [
+        "privacy",
+        "data",
+        "legal",
+        "ownership"
+      ]
+    },
+    {
+      "id": "snowden-010",
+      "text": "You can't awaken someone who's pretending to be asleep.",
+      "author": "Edward Snowden",
+      "source": "Joe Rogan Experience",
+      "year": 2019,
+      "tags": [
+        "awareness",
+        "truth",
+        "denial"
+      ]
     }
   ]
 }
