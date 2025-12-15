@@ -1097,6 +1097,68 @@
         "engineering",
         "practicality"
       ]
+    },
+    {
+      "id": "hellman-001",
+      "text": "What is the greatest unsolved problem in cryptography today? Lack of user awareness.",
+      "author": "Martin Hellman",
+      "source": "Charles Babbage Institute Oral History",
+      "year": 2004,
+      "tags": [
+        "cryptography",
+        "user-awareness",
+        "education"
+      ]
+    },
+    {
+      "id": "hellman-002",
+      "text": "Building security from day one is much easier than adding it on as an afterthought.",
+      "author": "Martin Hellman",
+      "source": "Charles Babbage Institute Oral History",
+      "year": 2004,
+      "tags": [
+        "security",
+        "design",
+        "architecture"
+      ]
+    },
+    {
+      "id": "hellman-003",
+      "text": "I have argued that the Internet should have had security built into it from the very beginning, where every email message was authenticated with a signature, and that there was an adequate public key infrastructure in place.",
+      "author": "Martin Hellman",
+      "source": "Charles Babbage Institute Oral History",
+      "year": 2004,
+      "tags": [
+        "internet",
+        "security",
+        "email",
+        "public-key"
+      ]
+    },
+    {
+      "id": "hellman-004",
+      "text": "When a company goes to develop a product, that has only two options, secure or insecure, they should, from day one, define the product as either secure or insecure.",
+      "author": "Martin Hellman",
+      "source": "Charles Babbage Institute Oral History",
+      "year": 2004,
+      "tags": [
+        "security",
+        "product-design",
+        "transparency"
+      ]
+    },
+    {
+      "id": "hellman-005",
+      "text": "The real value in encryption and the real threat to intelligence operations, both law enforcement and national security, is integrated, automatic encryption.",
+      "author": "Martin Hellman",
+      "source": "Charles Babbage Institute Oral History",
+      "year": 2004,
+      "tags": [
+        "encryption",
+        "intelligence",
+        "surveillance",
+        "automation"
+      ]
     }
   ]
 }
