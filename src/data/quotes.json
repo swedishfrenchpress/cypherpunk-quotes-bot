@@ -917,6 +917,31 @@
         "freedom",
         "resilience"
       ]
+    },
+    {
+      "id": "zooko-001",
+      "text": "User-controlled privacy is not a niche; it's a fundamental building block of a healthy and stable society.",
+      "author": "Zooko Wilcox",
+      "source": "Cypherpunk Technologies Press Release",
+      "year": 2023,
+      "tags": [
+        "privacy",
+        "society",
+        "user-control"
+      ]
+    },
+    {
+      "id": "zooko-002",
+      "text": "Privacy is the foundation that allows freedom of speech, thought, and association to thrive. Without it, these freedoms exist only on paper and can't be exercised in practice in a meaningful way.",
+      "author": "Zooko Wilcox",
+      "source": "Cypherpunk Technologies Press Release",
+      "year": 2023,
+      "tags": [
+        "privacy",
+        "free-speech",
+        "freedom",
+        "foundation"
+      ]
     }
   ]
 }
