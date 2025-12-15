@@ -956,6 +956,83 @@
         "freedom",
         "foundation"
       ]
+    },
+    {
+      "id": "tim-may-007",
+      "text": "I can't speak for what Satoshi intended, but I sure don't think it involved bitcoin exchanges that have draconian rules about KYC, AML, passports, freezes on accounts and laws about reporting 'suspicious activity' to the local secret police.",
+      "author": "Tim May",
+      "source": "CoinDesk",
+      "year": 2018,
+      "tags": [
+        "bitcoin",
+        "surveillance",
+        "kyc",
+        "regulation"
+      ]
+    },
+    {
+      "id": "tim-may-008",
+      "text": "There's a real possibility that all the noise about 'governance,' 'regulation' and 'blockchain' will effectively create a surveillance state, a dossier society.",
+      "author": "Tim May",
+      "source": "CoinDesk",
+      "year": 2018,
+      "tags": [
+        "surveillance",
+        "regulation",
+        "blockchain",
+        "government"
+      ]
+    },
+    {
+      "id": "tim-may-009",
+      "text": "I think the greed and hype and nattering about 'to the Moon!' and 'HODL' is the biggest hype wagon I've ever seen.",
+      "author": "Tim May",
+      "source": "CoinDesk",
+      "year": 2018,
+      "tags": [
+        "bitcoin",
+        "hype",
+        "greed",
+        "criticism"
+      ]
+    },
+    {
+      "id": "tim-may-010",
+      "text": "Be interested in liberty and the freedom to transact and speak to get back to the original motivations. Don't spend time trying to make government-friendly financial alternatives.",
+      "author": "Tim May",
+      "source": "CoinDesk",
+      "year": 2018,
+      "tags": [
+        "liberty",
+        "freedom",
+        "transactions",
+        "government"
+      ]
+    },
+    {
+      "id": "tim-may-011",
+      "text": "Mathematics is not the law.",
+      "author": "Tim May",
+      "source": "CoinDesk",
+      "year": 2018,
+      "tags": [
+        "mathematics",
+        "law",
+        "cryptography",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "tim-may-012",
+      "text": "Remember, there are a lot tyrants out there.",
+      "author": "Tim May",
+      "source": "CoinDesk",
+      "year": 2018,
+      "tags": [
+        "tyranny",
+        "warning",
+        "freedom"
+      ]
     }
   ]
 }
