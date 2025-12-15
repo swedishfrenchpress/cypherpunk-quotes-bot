@@ -415,18 +415,6 @@
       ]
     },
     {
-      "id": "nick-szabo-002",
-      "text": "A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises.",
-      "author": "Nick Szabo",
-      "source": "Smart Contracts: Building Blocks for Digital Markets",
-      "year": 1996,
-      "tags": [
-        "smart-contracts",
-        "digital",
-        "protocols"
-      ]
-    },
-    {
       "id": "nick-szabo-003",
       "text": "Advances in information technology have made possible the rise of a truly international currency that does not depend on a central bank.",
       "author": "Nick Szabo",
@@ -580,30 +568,6 @@
         "cryptography",
         "public-key",
         "privacy"
-      ]
-    },
-    {
-      "id": "merkle-001",
-      "text": "Digital signatures using public-key cryptosystems provide verification of both integrity and authenticity of messages.",
-      "author": "Ralph Merkle",
-      "source": "Secrecy, Authentication, and Public Key Systems",
-      "year": 1979,
-      "tags": [
-        "digital-signatures",
-        "cryptography",
-        "authentication"
-      ]
-    },
-    {
-      "id": "merkle-002",
-      "text": "A hash function should be a one-way function — easy to compute but difficult to reverse.",
-      "author": "Ralph Merkle",
-      "source": "A Certified Digital Signature",
-      "year": 1989,
-      "tags": [
-        "hash-function",
-        "cryptography",
-        "one-way"
       ]
     },
     {
@@ -775,18 +739,6 @@
       ]
     },
     {
-      "id": "antonopoulos-001",
-      "text": "Bitcoin isn't just money for the internet. It's a new form of money that is native to the internet.",
-      "author": "Andreas Antonopoulos",
-      "source": "Mastering Bitcoin",
-      "year": 2014,
-      "tags": [
-        "bitcoin",
-        "internet",
-        "money"
-      ]
-    },
-    {
       "id": "antonopoulos-003",
       "text": "Bitcoin is not just a currency. It's a platform for trust.",
       "author": "Andreas Antonopoulos",
@@ -796,18 +748,6 @@
         "bitcoin",
         "trust",
         "platform"
-      ]
-    },
-    {
-      "id": "fiatjaf-001",
-      "text": "The simplest open protocol that is able to create a censorship-resistant global social network.",
-      "author": "fiatjaf",
-      "source": "Nostr Protocol Documentation",
-      "year": 2020,
-      "tags": [
-        "nostr",
-        "protocol",
-        "censorship-resistance"
       ]
     },
     {
@@ -835,31 +775,6 @@
       ]
     },
     {
-      "id": "satoshi-008",
-      "text": "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.",
-      "author": "Satoshi Nakamoto",
-      "source": "Bitcoin Genesis Block",
-      "year": 2009,
-      "tags": [
-        "bitcoin",
-        "genesis",
-        "banks",
-        "historic"
-      ]
-    },
-    {
-      "id": "satoshi-009",
-      "text": "Writing a description for this thing for general audiences is bloody hard. There's nothing to relate it to.",
-      "author": "Satoshi Nakamoto",
-      "source": "BitcoinTalk Forum",
-      "year": 2010,
-      "tags": [
-        "bitcoin",
-        "communication",
-        "innovation"
-      ]
-    },
-    {
       "id": "tim-may-006",
       "text": "Strong cryptography can resist an unlimited amount of violence. No amount of coercive force will ever solve a math problem.",
       "author": "Tim May",
@@ -869,18 +784,6 @@
         "cryptography",
         "violence",
         "mathematics"
-      ]
-    },
-    {
-      "id": "hal-finney-007",
-      "text": "I would like to die peacefully in my sleep, knowing that I helped create a better world for those who come after me.",
-      "author": "Hal Finney",
-      "source": "BitcoinTalk Forum",
-      "year": 2013,
-      "tags": [
-        "legacy",
-        "hope",
-        "future"
       ]
     },
     {
@@ -1087,18 +990,6 @@
       ]
     },
     {
-      "id": "phil-zimmermann-009",
-      "text": "I am an engineer, not a mathematician. I try to find practical solutions to actual problems.",
-      "author": "Philip Zimmermann",
-      "source": "GrepLaw",
-      "year": 2003,
-      "tags": [
-        "cryptography",
-        "engineering",
-        "practicality"
-      ]
-    },
-    {
       "id": "hellman-001",
       "text": "What is the greatest unsolved problem in cryptography today? Lack of user awareness.",
       "author": "Martin Hellman",
@@ -1195,18 +1086,6 @@
         "cryptography",
         "trust",
         "key-distribution"
-      ]
-    },
-    {
-      "id": "diffie-006",
-      "text": "Cryptography was a technique that did not require your trusting other people.",
-      "author": "Whitfield Diffie",
-      "source": "ITAS Interview",
-      "year": 1992,
-      "tags": [
-        "cryptography",
-        "trust",
-        "privacy"
       ]
     }
   ]
