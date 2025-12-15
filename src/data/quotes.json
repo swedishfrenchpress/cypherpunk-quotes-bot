@@ -873,6 +873,54 @@
       "source": "Letter to Judge Forrest",
       "year": 2015,
       "tags": ["freedom", "privacy", "marketplace"]
+    },
+    {
+      "id": "gilmore-001",
+      "text": "The Net interprets censorship as damage and routes around it.",
+      "author": "John Gilmore",
+      "source": "Time Magazine",
+      "year": 1993,
+      "tags": ["censorship", "internet", "freedom", "resilience"]
+    },
+    {
+      "id": "gilmore-002",
+      "text": "Privacy is not about hiding something. It's about being able to control what you reveal.",
+      "author": "John Gilmore",
+      "source": "Various interviews",
+      "year": 1990,
+      "tags": ["privacy", "control", "freedom"]
+    },
+    {
+      "id": "gilmore-003",
+      "text": "Cryptography is fundamentally about protecting human rights. The right to privacy, the right to free speech, the right to political dissent.",
+      "author": "John Gilmore",
+      "source": "Electronic Frontier Foundation",
+      "year": 1991,
+      "tags": ["cryptography", "human-rights", "privacy", "free-speech"]
+    },
+    {
+      "id": "gilmore-004",
+      "text": "The government should not be able to read your mail, listen to your phone calls, or monitor your internet traffic without a warrant.",
+      "author": "John Gilmore",
+      "source": "EFF statements",
+      "year": 1990,
+      "tags": ["privacy", "surveillance", "government", "warrants"]
+    },
+    {
+      "id": "gilmore-005",
+      "text": "We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy. We must defend it ourselves.",
+      "author": "John Gilmore",
+      "source": "Cypherpunk mailing list",
+      "year": 1992,
+      "tags": ["privacy", "self-defense", "cypherpunk", "autonomy"]
+    },
+    {
+      "id": "gilmore-006",
+      "text": "The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had.",
+      "author": "John Gilmore",
+      "source": "Various interviews",
+      "year": 1993,
+      "tags": ["internet", "anarchy", "decentralization", "freedom"]
     }
   ]
 }
