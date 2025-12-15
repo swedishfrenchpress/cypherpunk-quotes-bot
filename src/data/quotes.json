@@ -1149,6 +1149,69 @@
         "truth",
         "denial"
       ]
+    },
+    {
+      "id": "assange-008",
+      "text": "That's why our primary defense isn't law, but technology.",
+      "author": "Julian Assange",
+      "source": "Forbes",
+      "year": 2010,
+      "tags": [
+        "technology",
+        "law",
+        "defense",
+        "wikileaks"
+      ]
+    },
+    {
+      "id": "assange-009",
+      "text": "Courage is contagious. If you demonstrate that individuals can leak something and go on to live a good life, it's tremendously incentivizing to people.",
+      "author": "Julian Assange",
+      "source": "Forbes",
+      "year": 2010,
+      "tags": [
+        "courage",
+        "whistleblowing",
+        "activism"
+      ]
+    },
+    {
+      "id": "assange-010",
+      "text": "Intelligence agencies keep things secret because they often violate the rule of law or of good behavior.",
+      "author": "Julian Assange",
+      "source": "Forbes",
+      "year": 2010,
+      "tags": [
+        "intelligence",
+        "secrecy",
+        "law",
+        "government"
+      ]
+    },
+    {
+      "id": "assange-011",
+      "text": "Stopping leaks is a new form of censorship. And in the same manner that very significant resources spent on China's firewall, the result is that anyone who's motivated can work around it.",
+      "author": "Julian Assange",
+      "source": "Forbes",
+      "year": 2010,
+      "tags": [
+        "censorship",
+        "leaks",
+        "technology",
+        "circumvention"
+      ]
+    },
+    {
+      "id": "assange-012",
+      "text": "The supply of leaks is very large. It's helpful for us to have more people in this industry. It's protective to us.",
+      "author": "Julian Assange",
+      "source": "Forbes",
+      "year": 2010,
+      "tags": [
+        "whistleblowing",
+        "transparency",
+        "leaks"
+      ]
     }
   ]
 }
