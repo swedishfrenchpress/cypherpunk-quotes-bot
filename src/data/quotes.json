@@ -1212,6 +1212,93 @@
         "transparency",
         "leaks"
       ]
+    },
+    {
+      "id": "rogaway-001",
+      "text": "Cryptography rearranges power: it configures who can do what, from what. This makes cryptography an inherently political tool, and it confers on the field an intrinsically moral dimension.",
+      "author": "Phillip Rogaway",
+      "source": "The Moral Character of Cryptographic Work",
+      "year": 2015,
+      "tags": [
+        "cryptography",
+        "power",
+        "politics",
+        "ethics"
+      ]
+    },
+    {
+      "id": "rogaway-002",
+      "text": "If cryptography's most basic aim is to enable secure communications, how could it not be a colossal failure of our field when ordinary people lack even a modicum of communication privacy when interacting electronically?",
+      "author": "Phillip Rogaway",
+      "source": "The Moral Character of Cryptographic Work",
+      "year": 2015,
+      "tags": [
+        "cryptography",
+        "privacy",
+        "failure",
+        "responsibility"
+      ]
+    },
+    {
+      "id": "rogaway-003",
+      "text": "That cryptographic work is deeply tied to politics is a claim so obvious that only a cryptographer could fail to see it.",
+      "author": "Phillip Rogaway",
+      "source": "The Moral Character of Cryptographic Work",
+      "year": 2015,
+      "tags": [
+        "cryptography",
+        "politics",
+        "awareness"
+      ]
+    },
+    {
+      "id": "rogaway-004",
+      "text": "Technological ideas and technological things are not politically neutral: routinely, they have strong, built-in tendencies.",
+      "author": "Phillip Rogaway",
+      "source": "The Moral Character of Cryptographic Work",
+      "year": 2015,
+      "tags": [
+        "technology",
+        "politics",
+        "neutrality"
+      ]
+    },
+    {
+      "id": "rogaway-005",
+      "text": "We need to make cryptography the solution to the problem: 'how do you make surveillance more expensive?'",
+      "author": "Phillip Rogaway",
+      "source": "The Moral Character of Cryptographic Work",
+      "year": 2015,
+      "tags": [
+        "cryptography",
+        "surveillance",
+        "resistance"
+      ]
+    },
+    {
+      "id": "rogaway-006",
+      "text": "Cypherpunk cryptography has been described as crypto with an attitude. But it is much more than that, for, more than anything else, what the cypherpunks wanted was crypto with values.",
+      "author": "Phillip Rogaway",
+      "source": "The Moral Character of Cryptographic Work",
+      "year": 2015,
+      "tags": [
+        "cypherpunk",
+        "cryptography",
+        "values",
+        "ethics"
+      ]
+    },
+    {
+      "id": "rogaway-007",
+      "text": "Since cryptography is a tool for shifting power, the people who know this subject well, like it or not, inherit some of that power.",
+      "author": "Phillip Rogaway",
+      "source": "The Moral Character of Cryptographic Work",
+      "year": 2015,
+      "tags": [
+        "cryptography",
+        "power",
+        "responsibility"
+      ]
     }
   ]
 }
