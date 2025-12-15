@@ -1033,6 +1033,70 @@
         "warning",
         "freedom"
       ]
+    },
+    {
+      "id": "phil-zimmermann-005",
+      "text": "You use envelopes for postal mail. You use it for love letters, business letters and your medical records. The only way to create the digital equivalent of an envelope is to encrypt.",
+      "author": "Philip Zimmermann",
+      "source": "GrepLaw",
+      "year": 2003,
+      "tags": [
+        "encryption",
+        "privacy",
+        "email",
+        "envelopes"
+      ]
+    },
+    {
+      "id": "phil-zimmermann-006",
+      "text": "Most people are unaware of how visible email is. Email could be intercepted by a lot of parties along the way, it could be captured and logged, scanned and then used years later.",
+      "author": "Philip Zimmermann",
+      "source": "GrepLaw",
+      "year": 2003,
+      "tags": [
+        "email",
+        "surveillance",
+        "privacy",
+        "interception"
+      ]
+    },
+    {
+      "id": "phil-zimmermann-007",
+      "text": "In view of the serious implications of such a law, I abandoned my plans to charge for PGP in the hopes of achieving wider distribution.",
+      "author": "Philip Zimmermann",
+      "source": "GrepLaw",
+      "year": 2003,
+      "tags": [
+        "pgp",
+        "encryption",
+        "government",
+        "backdoors"
+      ]
+    },
+    {
+      "id": "phil-zimmermann-008",
+      "text": "I am active in policy space rather writing code, doing a lot of public speaking. There is a lot of need for activism now in the shadow of the Patriot Act.",
+      "author": "Philip Zimmermann",
+      "source": "GrepLaw",
+      "year": 2003,
+      "tags": [
+        "activism",
+        "patriot-act",
+        "policy",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "phil-zimmermann-009",
+      "text": "I am an engineer, not a mathematician. I try to find practical solutions to actual problems.",
+      "author": "Philip Zimmermann",
+      "source": "GrepLaw",
+      "year": 2003,
+      "tags": [
+        "cryptography",
+        "engineering",
+        "practicality"
+      ]
     }
   ]
 }
