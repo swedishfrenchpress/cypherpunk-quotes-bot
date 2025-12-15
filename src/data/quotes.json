@@ -1,0 +1,894 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-01T00:00:00Z",
+  "quotes": [
+    {
+      "id": "satoshi-001",
+      "text": "If you don't believe it or don't get it, I don't have the time to try to convince you, sorry.",
+      "author": "Satoshi Nakamoto",
+      "source": "BitcoinTalk Forum",
+      "year": 2010,
+      "tags": ["bitcoin", "skeptics", "conviction"]
+    },
+    {
+      "id": "satoshi-002",
+      "text": "The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust.",
+      "author": "Satoshi Nakamoto",
+      "source": "P2P Foundation",
+      "year": 2009,
+      "tags": ["bitcoin", "trust", "central-banks", "fiat"]
+    },
+    {
+      "id": "satoshi-003",
+      "text": "I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party.",
+      "author": "Satoshi Nakamoto",
+      "source": "Cryptography Mailing List",
+      "year": 2008,
+      "tags": ["bitcoin", "peer-to-peer", "electronic-cash"]
+    },
+    {
+      "id": "satoshi-004",
+      "text": "We have proposed a system for electronic transactions without relying on trust.",
+      "author": "Satoshi Nakamoto",
+      "source": "Bitcoin Whitepaper",
+      "year": 2008,
+      "tags": ["bitcoin", "trustless", "whitepaper"]
+    },
+    {
+      "id": "satoshi-005",
+      "text": "It might make sense just to get some in case it catches on.",
+      "author": "Satoshi Nakamoto",
+      "source": "Email to Hal Finney",
+      "year": 2009,
+      "tags": ["bitcoin", "adoption", "speculation"]
+    },
+    {
+      "id": "satoshi-006",
+      "text": "Lost coins only make everyone else's coins worth slightly more. Think of it as a donation to everyone.",
+      "author": "Satoshi Nakamoto",
+      "source": "BitcoinTalk Forum",
+      "year": 2010,
+      "tags": ["bitcoin", "economics", "scarcity"]
+    },
+    {
+      "id": "satoshi-007",
+      "text": "The nature of Bitcoin is such that once version 0.1 was released, the core design was set in stone for the rest of its lifetime.",
+      "author": "Satoshi Nakamoto",
+      "source": "BitcoinTalk Forum",
+      "year": 2010,
+      "tags": ["bitcoin", "protocol", "immutability"]
+    },
+    {
+      "id": "tim-may-001",
+      "text": "A specter is haunting the modern world, the specter of crypto anarchy.",
+      "author": "Tim May",
+      "source": "The Crypto Anarchist Manifesto",
+      "year": 1988,
+      "tags": ["crypto-anarchy", "manifesto", "cypherpunk"]
+    },
+    {
+      "id": "tim-may-002",
+      "text": "The State will of course try to slow or halt the spread of this technology, citing national security concerns, use of the technology by drug dealers and tax evaders, and fears of societal disintegration.",
+      "author": "Tim May",
+      "source": "The Crypto Anarchist Manifesto",
+      "year": 1988,
+      "tags": ["government", "regulation", "prophecy"]
+    },
+    {
+      "id": "tim-may-003",
+      "text": "Computer technology is on the verge of providing the ability for individuals and groups to communicate and interact with each other in a totally anonymous manner.",
+      "author": "Tim May",
+      "source": "The Crypto Anarchist Manifesto",
+      "year": 1988,
+      "tags": ["anonymity", "privacy", "technology"]
+    },
+    {
+      "id": "tim-may-004",
+      "text": "Just as the technology of printing altered and reduced the power of medieval guilds and the social power structure, so too will cryptologic methods fundamentally alter the nature of corporations and of government interference in economic transactions.",
+      "author": "Tim May",
+      "source": "The Crypto Anarchist Manifesto",
+      "year": 1988,
+      "tags": ["cryptography", "economics", "disruption"]
+    },
+    {
+      "id": "tim-may-005",
+      "text": "Crypto anarchy is not just about avoiding laws. It's about making certain laws unenforceable, and hence making them obsolete.",
+      "author": "Tim May",
+      "source": "Cypherpunks Mailing List",
+      "year": 1992,
+      "tags": ["crypto-anarchy", "law", "enforcement"]
+    },
+    {
+      "id": "eric-hughes-001",
+      "text": "Privacy is necessary for an open society in the electronic age.",
+      "author": "Eric Hughes",
+      "source": "A Cypherpunk's Manifesto",
+      "year": 1993,
+      "tags": ["privacy", "manifesto", "society"]
+    },
+    {
+      "id": "eric-hughes-002",
+      "text": "Cypherpunks write code. We know that someone has to write software to defend privacy, and since we can't get privacy unless we all do, we're going to write it.",
+      "author": "Eric Hughes",
+      "source": "A Cypherpunk's Manifesto",
+      "year": 1993,
+      "tags": ["cypherpunk", "code", "action"]
+    },
+    {
+      "id": "eric-hughes-003",
+      "text": "Privacy is not secrecy. A private matter is something one doesn't want the whole world to know, but a secret matter is something one doesn't want anybody to know. Privacy is the power to selectively reveal oneself to the world.",
+      "author": "Eric Hughes",
+      "source": "A Cypherpunk's Manifesto",
+      "year": 1993,
+      "tags": ["privacy", "secrecy", "identity"]
+    },
+    {
+      "id": "eric-hughes-004",
+      "text": "We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy out of their beneficence.",
+      "author": "Eric Hughes",
+      "source": "A Cypherpunk's Manifesto",
+      "year": 1993,
+      "tags": ["privacy", "government", "corporations"]
+    },
+    {
+      "id": "eric-hughes-005",
+      "text": "We must defend our own privacy if we expect to have any. We must come together and create systems which allow anonymous transactions to take place.",
+      "author": "Eric Hughes",
+      "source": "A Cypherpunk's Manifesto",
+      "year": 1993,
+      "tags": ["privacy", "self-defense", "anonymous-transactions"]
+    },
+    {
+      "id": "julian-assange-001",
+      "text": "If wars can be started by lies, peace can be started by truth.",
+      "author": "Julian Assange",
+      "source": "Interview",
+      "year": 2011,
+      "tags": ["truth", "war", "peace", "transparency"]
+    },
+    {
+      "id": "julian-assange-002",
+      "text": "The goal is justice, the method is transparency.",
+      "author": "Julian Assange",
+      "source": "Twitter",
+      "year": 2011,
+      "tags": ["justice", "transparency", "wikileaks"]
+    },
+    {
+      "id": "julian-assange-003",
+      "text": "Capable, generous men do not create victims, they nurture them.",
+      "author": "Julian Assange",
+      "source": "Cypherpunks: Freedom and the Future of the Internet",
+      "year": 2012,
+      "tags": ["ethics", "power", "responsibility"]
+    },
+    {
+      "id": "julian-assange-004",
+      "text": "Every time we witness an injustice and do not act, we train our character to be passive in its presence and thereby eventually lose all ability to defend ourselves and those we love.",
+      "author": "Julian Assange",
+      "source": "State and Terrorist Conspiracies",
+      "year": 2006,
+      "tags": ["justice", "action", "character"]
+    },
+    {
+      "id": "julian-assange-005",
+      "text": "The internet, our greatest tool of emancipation, has been transformed into the most dangerous facilitator of totalitarianism we have ever seen.",
+      "author": "Julian Assange",
+      "source": "Cypherpunks: Freedom and the Future of the Internet",
+      "year": 2012,
+      "tags": ["internet", "surveillance", "totalitarianism"]
+    },
+    {
+      "id": "julian-assange-006",
+      "text": "Man is least himself when he talks in his own person. Give him a mask, and he will tell you the truth.",
+      "author": "Julian Assange",
+      "source": "Cypherpunks: Freedom and the Future of the Internet",
+      "year": 2012,
+      "tags": ["anonymity", "truth", "identity"]
+    },
+    {
+      "id": "phil-zimmermann-001",
+      "text": "If privacy is outlawed, only outlaws will have privacy.",
+      "author": "Philip Zimmermann",
+      "source": "Why I Wrote PGP",
+      "year": 1991,
+      "tags": ["privacy", "encryption", "law"]
+    },
+    {
+      "id": "phil-zimmermann-002",
+      "text": "Pretty Good Privacy empowers people to take their privacy into their own hands. There has been a growing social need for it.",
+      "author": "Philip Zimmermann",
+      "source": "Why I Wrote PGP",
+      "year": 1991,
+      "tags": ["pgp", "privacy", "empowerment"]
+    },
+    {
+      "id": "phil-zimmermann-003",
+      "text": "There is nothing quite so disempowering as a government that can read all your most intimate thoughts and correspondence.",
+      "author": "Philip Zimmermann",
+      "source": "Why I Wrote PGP",
+      "year": 1991,
+      "tags": ["surveillance", "government", "privacy"]
+    },
+    {
+      "id": "phil-zimmermann-004",
+      "text": "What if everyone believed that law-abiding citizens should use postcards for their mail? If a nonconformist tried to assert his privacy by using an envelope, it would draw suspicion.",
+      "author": "Philip Zimmermann",
+      "source": "Why I Wrote PGP",
+      "year": 1991,
+      "tags": ["privacy", "encryption", "conformity"]
+    },
+    {
+      "id": "david-chaum-001",
+      "text": "You can pay for access to a database, download a program, or have a prescription filled — without anyone being able to trace the transaction back to you.",
+      "author": "David Chaum",
+      "source": "Security Without Identification",
+      "year": 1985,
+      "tags": ["privacy", "transactions", "anonymity"]
+    },
+    {
+      "id": "david-chaum-002",
+      "text": "The difference between a bad electronic cash system and well-developed digital cash will determine whether we will have a dictatorship or a real democracy.",
+      "author": "David Chaum",
+      "source": "Interview",
+      "year": 1996,
+      "tags": ["digital-cash", "democracy", "dictatorship"]
+    },
+    {
+      "id": "david-chaum-003",
+      "text": "I am very concerned that large transaction systems are being designed with no regard for privacy. Once in place they could lead to a world in which all transactions are tracked.",
+      "author": "David Chaum",
+      "source": "Communications of the ACM",
+      "year": 1985,
+      "tags": ["privacy", "surveillance", "transactions"]
+    },
+    {
+      "id": "hal-finney-001",
+      "text": "Running bitcoin.",
+      "author": "Hal Finney",
+      "source": "Twitter",
+      "year": 2009,
+      "tags": ["bitcoin", "historic", "first-tweet"]
+    },
+    {
+      "id": "hal-finney-002",
+      "text": "I see Bitcoin as ultimately becoming a reserve currency for banks, playing much the same role as gold did in the early days of banking.",
+      "author": "Hal Finney",
+      "source": "BitcoinTalk Forum",
+      "year": 2010,
+      "tags": ["bitcoin", "banking", "gold"]
+    },
+    {
+      "id": "hal-finney-003",
+      "text": "I'd like to think that decades from now, people will look back and see this time as the dawning of a new era of individual empowerment and freedom.",
+      "author": "Hal Finney",
+      "source": "BitcoinTalk Forum",
+      "year": 2013,
+      "tags": ["bitcoin", "freedom", "future", "optimism"]
+    },
+    {
+      "id": "hal-finney-004",
+      "text": "For Bitcoin to succeed and become secure, bitcoins must become vastly more expensive.",
+      "author": "Hal Finney",
+      "source": "BitcoinTalk Forum",
+      "year": 2011,
+      "tags": ["bitcoin", "security", "economics"]
+    },
+    {
+      "id": "hal-finney-005",
+      "text": "When Satoshi announced Bitcoin on the cryptography mailing list, he got a skeptical reception at best. Cryptographers have seen too many grand schemes by clueless noobs.",
+      "author": "Hal Finney",
+      "source": "BitcoinTalk Forum",
+      "year": 2013,
+      "tags": ["bitcoin", "satoshi", "history"]
+    },
+    {
+      "id": "hal-finney-006",
+      "text": "Bitcoin seems to be a very promising idea. I like the idea of basing security on the assumption that the CPU power of honest participants outweighs that of the attacker.",
+      "author": "Hal Finney",
+      "source": "Cryptography Mailing List",
+      "year": 2008,
+      "tags": ["bitcoin", "security", "proof-of-work"]
+    },
+    {
+      "id": "wei-dai-001",
+      "text": "I am fascinated by Tim May's crypto-anarchy. Unlike the communities traditionally associated with the word 'anarchy', in a crypto-anarchy the government is not temporarily destroyed but permanently forbidden and permanently unnecessary.",
+      "author": "Wei Dai",
+      "source": "b-money proposal",
+      "year": 1998,
+      "tags": ["crypto-anarchy", "b-money", "governance"]
+    },
+    {
+      "id": "nick-szabo-001",
+      "text": "Trusted third parties are security holes.",
+      "author": "Nick Szabo",
+      "source": "Trusted Third Parties are Security Holes",
+      "year": 2001,
+      "tags": ["security", "trust", "decentralization"]
+    },
+    {
+      "id": "nick-szabo-002",
+      "text": "A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises.",
+      "author": "Nick Szabo",
+      "source": "Smart Contracts: Building Blocks for Digital Markets",
+      "year": 1996,
+      "tags": ["smart-contracts", "digital", "protocols"]
+    },
+    {
+      "id": "nick-szabo-003",
+      "text": "Advances in information technology have made possible the rise of a truly international currency that does not depend on a central bank.",
+      "author": "Nick Szabo",
+      "source": "Bit Gold",
+      "year": 2005,
+      "tags": ["digital-currency", "central-bank", "international"]
+    },
+    {
+      "id": "nick-szabo-004",
+      "text": "Money, like written language, was one of the most important inventions of civilization.",
+      "author": "Nick Szabo",
+      "source": "Shelling Out: The Origins of Money",
+      "year": 2002,
+      "tags": ["money", "civilization", "history"]
+    },
+    {
+      "id": "nick-szabo-005",
+      "text": "Bitcoin is the first practical solution to the Byzantine Generals Problem in an open permissionless environment.",
+      "author": "Nick Szabo",
+      "source": "Twitter",
+      "year": 2014,
+      "tags": ["bitcoin", "byzantine", "consensus"]
+    },
+    {
+      "id": "nick-szabo-006",
+      "text": "The most secure way to store private keys is on paper in a safe.",
+      "author": "Nick Szabo",
+      "source": "Twitter",
+      "year": 2017,
+      "tags": ["security", "private-keys", "storage"]
+    },
+    {
+      "id": "jpb-001",
+      "text": "Governments of the Industrial World, you weary giants of flesh and steel, I come from Cyberspace, the new home of Mind.",
+      "author": "John Perry Barlow",
+      "source": "A Declaration of the Independence of Cyberspace",
+      "year": 1996,
+      "tags": ["cyberspace", "independence", "government"]
+    },
+    {
+      "id": "jpb-002",
+      "text": "Cyberspace consists of transactions, relationships, and thought itself, arrayed like a standing wave in the web of our communications. Ours is a world that is both everywhere and nowhere, but it is not where bodies live.",
+      "author": "John Perry Barlow",
+      "source": "A Declaration of the Independence of Cyberspace",
+      "year": 1996,
+      "tags": ["cyberspace", "philosophy", "digital-world"]
+    },
+    {
+      "id": "jpb-003",
+      "text": "You claim there are problems among us that you need to solve. You use this claim as an excuse to invade our precincts.",
+      "author": "John Perry Barlow",
+      "source": "A Declaration of the Independence of Cyberspace",
+      "year": 1996,
+      "tags": ["government", "regulation", "cyberspace"]
+    },
+    {
+      "id": "jpb-004",
+      "text": "We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.",
+      "author": "John Perry Barlow",
+      "source": "A Declaration of the Independence of Cyberspace",
+      "year": 1996,
+      "tags": ["free-speech", "expression", "conformity"]
+    },
+    {
+      "id": "jpb-005",
+      "text": "The best way to invent the future is to predict it.",
+      "author": "John Perry Barlow",
+      "source": "Various speeches",
+      "year": 1995,
+      "tags": ["future", "innovation", "prophecy"]
+    },
+    {
+      "id": "jpb-006",
+      "text": "Relying on the government to protect your privacy is like asking a peeping tom to install your window blinds.",
+      "author": "John Perry Barlow",
+      "source": "Various speeches",
+      "year": 1993,
+      "tags": ["privacy", "government", "trust"]
+    },
+    {
+      "id": "snowden-001",
+      "text": "Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say.",
+      "author": "Edward Snowden",
+      "source": "Reddit AMA",
+      "year": 2015,
+      "tags": ["privacy", "free-speech", "rights"]
+    },
+    {
+      "id": "snowden-002",
+      "text": "I don't want to live in a world where everything I do and say is recorded. That is not something I am willing to support or live under.",
+      "author": "Edward Snowden",
+      "source": "The Guardian Interview",
+      "year": 2013,
+      "tags": ["surveillance", "privacy", "freedom"]
+    },
+    {
+      "id": "snowden-003",
+      "text": "The NSA has built an infrastructure that allows it to intercept almost everything. With this capability, the vast majority of human communications are automatically ingested without targeting.",
+      "author": "Edward Snowden",
+      "source": "The Guardian Interview",
+      "year": 2013,
+      "tags": ["nsa", "surveillance", "mass-surveillance"]
+    },
+    {
+      "id": "snowden-004",
+      "text": "Being a patriot doesn't mean prioritizing service to government above all else. Being a patriot means knowing when to protect your country, knowing when to protect your Constitution, knowing when to protect your countrymen, from the violations of and encroachments of adversaries.",
+      "author": "Edward Snowden",
+      "source": "Permanent Record",
+      "year": 2019,
+      "tags": ["patriotism", "constitution", "whistleblower"]
+    },
+    {
+      "id": "snowden-005",
+      "text": "Encryption works. Properly implemented strong crypto systems are one of the few things that you can rely on.",
+      "author": "Edward Snowden",
+      "source": "The Guardian Q&A",
+      "year": 2013,
+      "tags": ["encryption", "security", "privacy"]
+    },
+    {
+      "id": "snowden-006",
+      "text": "We are all combatants in a great cyberwar. Every system we build, every page we code, every network we link becomes another front in the fight for digital freedom.",
+      "author": "Edward Snowden",
+      "source": "Various speeches",
+      "year": 2016,
+      "tags": ["cyberwar", "digital-freedom", "technology"]
+    },
+    {
+      "id": "diffie-001",
+      "text": "The best defense against abusive government is an informed and active citizenry.",
+      "author": "Whitfield Diffie",
+      "source": "Congressional testimony",
+      "year": 1993,
+      "tags": ["government", "citizens", "defense"]
+    },
+    {
+      "id": "diffie-002",
+      "text": "Public key cryptography is a revolution that puts control of privacy into the hands of the individual.",
+      "author": "Whitfield Diffie",
+      "source": "New Directions in Cryptography",
+      "year": 1976,
+      "tags": ["cryptography", "public-key", "privacy"]
+    },
+    {
+      "id": "diffie-003",
+      "text": "It is insufficient to protect ourselves with laws; we need to protect ourselves with mathematics.",
+      "author": "Whitfield Diffie",
+      "source": "Various speeches",
+      "year": 1995,
+      "tags": ["cryptography", "law", "mathematics"]
+    },
+    {
+      "id": "merkle-001",
+      "text": "Digital signatures using public-key cryptosystems provide verification of both integrity and authenticity of messages.",
+      "author": "Ralph Merkle",
+      "source": "Secrecy, Authentication, and Public Key Systems",
+      "year": 1979,
+      "tags": ["digital-signatures", "cryptography", "authentication"]
+    },
+    {
+      "id": "merkle-002",
+      "text": "A hash function should be a one-way function — easy to compute but difficult to reverse.",
+      "author": "Ralph Merkle",
+      "source": "A Certified Digital Signature",
+      "year": 1989,
+      "tags": ["hash-function", "cryptography", "one-way"]
+    },
+    {
+      "id": "adam-back-001",
+      "text": "Bitcoin is a technological tour de force.",
+      "author": "Adam Back",
+      "source": "Twitter",
+      "year": 2013,
+      "tags": ["bitcoin", "technology", "praise"]
+    },
+    {
+      "id": "adam-back-002",
+      "text": "Hashcash was a proof-of-work system designed to limit email spam and denial-of-service attacks. The same concept now secures bitcoin.",
+      "author": "Adam Back",
+      "source": "Various interviews",
+      "year": 2014,
+      "tags": ["hashcash", "proof-of-work", "bitcoin"]
+    },
+    {
+      "id": "adam-back-003",
+      "text": "The cypherpunks were right. We should have more privacy than governments allow.",
+      "author": "Adam Back",
+      "source": "Twitter",
+      "year": 2019,
+      "tags": ["cypherpunk", "privacy", "government"]
+    },
+    {
+      "id": "adam-back-004",
+      "text": "Bitcoin is the most significant computer science breakthrough in the last 20 years.",
+      "author": "Adam Back",
+      "source": "Conference speech",
+      "year": 2017,
+      "tags": ["bitcoin", "computer-science", "breakthrough"]
+    },
+    {
+      "id": "cody-wilson-001",
+      "text": "The age of the printable gun has arrived, and there's nothing anyone can do about it.",
+      "author": "Cody Wilson",
+      "source": "Come and Take It",
+      "year": 2016,
+      "tags": ["3d-printing", "guns", "technology"]
+    },
+    {
+      "id": "cody-wilson-002",
+      "text": "Crypto anarchy means showing people you can exist outside of the state and its money.",
+      "author": "Cody Wilson",
+      "source": "Various interviews",
+      "year": 2014,
+      "tags": ["crypto-anarchy", "state", "money"]
+    },
+    {
+      "id": "cody-wilson-003",
+      "text": "Information wants to be free, and it will find a way.",
+      "author": "Cody Wilson",
+      "source": "Come and Take It",
+      "year": 2016,
+      "tags": ["information", "freedom", "censorship"]
+    },
+    {
+      "id": "ross-ulbricht-001",
+      "text": "I wanted to empower people to make their own choices, to pursue their own happiness.",
+      "author": "Ross Ulbricht",
+      "source": "Letter to Judge Forrest",
+      "year": 2015,
+      "tags": ["freedom", "choice", "empowerment"]
+    },
+    {
+      "id": "ross-ulbricht-002",
+      "text": "Every action I took was out of a desire to enable people to have freedom and control over their own lives.",
+      "author": "Ross Ulbricht",
+      "source": "Letter to Judge Forrest",
+      "year": 2015,
+      "tags": ["freedom", "control", "autonomy"]
+    },
+    {
+      "id": "ross-ulbricht-003",
+      "text": "Silk Road was supposed to be about giving people the freedom to make their own choices.",
+      "author": "Ross Ulbricht",
+      "source": "Various letters",
+      "year": 2015,
+      "tags": ["silk-road", "freedom", "choice"]
+    },
+    {
+      "id": "appelbaum-001",
+      "text": "Anonymity is a shield from the tyranny of the majority.",
+      "author": "Jacob Appelbaum",
+      "source": "Various speeches",
+      "year": 2012,
+      "tags": ["anonymity", "tyranny", "majority"]
+    },
+    {
+      "id": "appelbaum-002",
+      "text": "We live in a golden age for surveillance. Everything you do can be captured.",
+      "author": "Jacob Appelbaum",
+      "source": "30C3 Congress",
+      "year": 2013,
+      "tags": ["surveillance", "privacy", "digital-age"]
+    },
+    {
+      "id": "appelbaum-003",
+      "text": "Tor is one of the most important things we have for fighting mass surveillance.",
+      "author": "Jacob Appelbaum",
+      "source": "Various speeches",
+      "year": 2014,
+      "tags": ["tor", "surveillance", "anonymity"]
+    },
+    {
+      "id": "appelbaum-004",
+      "text": "The internet was designed without a security model, and we're paying for it now.",
+      "author": "Jacob Appelbaum",
+      "source": "Various speeches",
+      "year": 2015,
+      "tags": ["internet", "security", "design"]
+    },
+    {
+      "id": "stallman-001",
+      "text": "Free software is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech,' not as in 'free beer.'",
+      "author": "Richard Stallman",
+      "source": "GNU Project",
+      "year": 1985,
+      "tags": ["free-software", "liberty", "open-source"]
+    },
+    {
+      "id": "stallman-002",
+      "text": "The only way to defend your freedom is to exercise it.",
+      "author": "Richard Stallman",
+      "source": "Various speeches",
+      "year": 1990,
+      "tags": ["freedom", "rights", "action"]
+    },
+    {
+      "id": "stallman-003",
+      "text": "Proprietary software is an injustice. It denies users freedom and keeps them divided and helpless.",
+      "author": "Richard Stallman",
+      "source": "Free Software, Free Society",
+      "year": 2002,
+      "tags": ["proprietary-software", "freedom", "justice"]
+    },
+    {
+      "id": "torvalds-001",
+      "text": "Talk is cheap. Show me the code.",
+      "author": "Linus Torvalds",
+      "source": "Linux Kernel Mailing List",
+      "year": 2000,
+      "tags": ["code", "action", "open-source"]
+    },
+    {
+      "id": "torvalds-002",
+      "text": "Software is like sex: it's better when it's free.",
+      "author": "Linus Torvalds",
+      "source": "Various interviews",
+      "year": 1996,
+      "tags": ["free-software", "open-source", "humor"]
+    },
+    {
+      "id": "aaronswartz-001",
+      "text": "Information is power. But like all power, there are those who want to keep it for themselves.",
+      "author": "Aaron Swartz",
+      "source": "Guerilla Open Access Manifesto",
+      "year": 2008,
+      "tags": ["information", "power", "open-access"]
+    },
+    {
+      "id": "aaronswartz-002",
+      "text": "There is no justice in following unjust laws. It's time to come into the light and, in the grand tradition of civil disobedience, declare our opposition to this private theft of public culture.",
+      "author": "Aaron Swartz",
+      "source": "Guerilla Open Access Manifesto",
+      "year": 2008,
+      "tags": ["justice", "civil-disobedience", "open-access"]
+    },
+    {
+      "id": "aaronswartz-003",
+      "text": "Be curious. Read widely. Try new things. What people call intelligence just boils down to curiosity.",
+      "author": "Aaron Swartz",
+      "source": "Blog post",
+      "year": 2006,
+      "tags": ["curiosity", "learning", "intelligence"]
+    },
+    {
+      "id": "doctorow-001",
+      "text": "The Internet treats censorship as damage and routes around it.",
+      "author": "Cory Doctorow",
+      "source": "Various writings",
+      "year": 2005,
+      "tags": ["internet", "censorship", "resilience"]
+    },
+    {
+      "id": "doctorow-002",
+      "text": "Anyone who says they have a system that's perfectly secure from attackers is lying.",
+      "author": "Cory Doctorow",
+      "source": "Little Brother",
+      "year": 2008,
+      "tags": ["security", "hacking", "truth"]
+    },
+    {
+      "id": "bruce-schneier-001",
+      "text": "Security is a process, not a product.",
+      "author": "Bruce Schneier",
+      "source": "Secrets and Lies",
+      "year": 2000,
+      "tags": ["security", "process", "technology"]
+    },
+    {
+      "id": "bruce-schneier-002",
+      "text": "The user's going to pick dancing pigs over security every time.",
+      "author": "Bruce Schneier",
+      "source": "Various speeches",
+      "year": 2000,
+      "tags": ["security", "usability", "human-nature"]
+    },
+    {
+      "id": "bruce-schneier-003",
+      "text": "If you think technology can solve your security problems, then you don't understand the problems and you don't understand the technology.",
+      "author": "Bruce Schneier",
+      "source": "Secrets and Lies",
+      "year": 2000,
+      "tags": ["security", "technology", "problems"]
+    },
+    {
+      "id": "bruce-schneier-004",
+      "text": "Cryptography is the last defense of liberty in a world of total surveillance.",
+      "author": "Bruce Schneier",
+      "source": "Data and Goliath",
+      "year": 2015,
+      "tags": ["cryptography", "liberty", "surveillance"]
+    },
+    {
+      "id": "andresen-001",
+      "text": "Bitcoin gives everybody access to a worldwide financial network using nothing but open source software.",
+      "author": "Gavin Andresen",
+      "source": "Various interviews",
+      "year": 2012,
+      "tags": ["bitcoin", "financial-network", "open-source"]
+    },
+    {
+      "id": "andresen-002",
+      "text": "The Bitcoin protocol should be treated as if it were consensus-bound.",
+      "author": "Gavin Andresen",
+      "source": "Bitcoin Improvement Proposals",
+      "year": 2013,
+      "tags": ["bitcoin", "protocol", "consensus"]
+    },
+    {
+      "id": "antonopoulos-001",
+      "text": "Bitcoin isn't just money for the internet. It's a new form of money that is native to the internet.",
+      "author": "Andreas Antonopoulos",
+      "source": "Mastering Bitcoin",
+      "year": 2014,
+      "tags": ["bitcoin", "internet", "money"]
+    },
+    {
+      "id": "antonopoulos-002",
+      "text": "Your keys, your bitcoin. Not your keys, not your bitcoin.",
+      "author": "Andreas Antonopoulos",
+      "source": "Various speeches",
+      "year": 2016,
+      "tags": ["bitcoin", "self-custody", "keys"]
+    },
+    {
+      "id": "antonopoulos-003",
+      "text": "Bitcoin is not just a currency. It's a platform for trust.",
+      "author": "Andreas Antonopoulos",
+      "source": "The Internet of Money",
+      "year": 2016,
+      "tags": ["bitcoin", "trust", "platform"]
+    },
+    {
+      "id": "antonopoulos-004",
+      "text": "The banks are afraid of bitcoin. They're afraid of what happens when people realize they don't need banks.",
+      "author": "Andreas Antonopoulos",
+      "source": "Various speeches",
+      "year": 2017,
+      "tags": ["bitcoin", "banks", "disruption"]
+    },
+    {
+      "id": "fiatjaf-001",
+      "text": "The simplest open protocol that is able to create a censorship-resistant global social network.",
+      "author": "fiatjaf",
+      "source": "Nostr Protocol Documentation",
+      "year": 2020,
+      "tags": ["nostr", "protocol", "censorship-resistance"]
+    },
+    {
+      "id": "jack-dorsey-001",
+      "text": "Bitcoin changes absolutely everything.",
+      "author": "Jack Dorsey",
+      "source": "Twitter",
+      "year": 2021,
+      "tags": ["bitcoin", "change", "revolution"]
+    },
+    {
+      "id": "jack-dorsey-002",
+      "text": "Bitcoin is the native currency of the internet.",
+      "author": "Jack Dorsey",
+      "source": "Various interviews",
+      "year": 2021,
+      "tags": ["bitcoin", "internet", "currency"]
+    },
+    {
+      "id": "moxie-001",
+      "text": "The ecosystem is moving towards consolidation because users don't want to run their own servers.",
+      "author": "Moxie Marlinspike",
+      "source": "My First Impressions of Web3",
+      "year": 2022,
+      "tags": ["decentralization", "servers", "users"]
+    },
+    {
+      "id": "moxie-002",
+      "text": "End-to-end encryption should be the default for all communication.",
+      "author": "Moxie Marlinspike",
+      "source": "Signal blog",
+      "year": 2016,
+      "tags": ["encryption", "communication", "privacy"]
+    },
+    {
+      "id": "satoshi-008",
+      "text": "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.",
+      "author": "Satoshi Nakamoto",
+      "source": "Bitcoin Genesis Block",
+      "year": 2009,
+      "tags": ["bitcoin", "genesis", "banks", "historic"]
+    },
+    {
+      "id": "satoshi-009",
+      "text": "Writing a description for this thing for general audiences is bloody hard. There's nothing to relate it to.",
+      "author": "Satoshi Nakamoto",
+      "source": "BitcoinTalk Forum",
+      "year": 2010,
+      "tags": ["bitcoin", "communication", "innovation"]
+    },
+    {
+      "id": "tim-may-006",
+      "text": "Strong cryptography can resist an unlimited amount of violence. No amount of coercive force will ever solve a math problem.",
+      "author": "Tim May",
+      "source": "Cypherpunks Mailing List",
+      "year": 1993,
+      "tags": ["cryptography", "violence", "mathematics"]
+    },
+    {
+      "id": "hal-finney-007",
+      "text": "I would like to die peacefully in my sleep, knowing that I helped create a better world for those who come after me.",
+      "author": "Hal Finney",
+      "source": "BitcoinTalk Forum",
+      "year": 2013,
+      "tags": ["legacy", "hope", "future"]
+    },
+    {
+      "id": "snowden-007",
+      "text": "You can't have 100% security and then also have 100% privacy and zero inconvenience. We're going to have to make some choices as a society.",
+      "author": "Edward Snowden",
+      "source": "Various interviews",
+      "year": 2014,
+      "tags": ["security", "privacy", "tradeoffs"]
+    },
+    {
+      "id": "assange-007",
+      "text": "Cryptography is the ultimate form of non-violent direct action.",
+      "author": "Julian Assange",
+      "source": "Cypherpunks: Freedom and the Future of the Internet",
+      "year": 2012,
+      "tags": ["cryptography", "activism", "non-violence"]
+    },
+    {
+      "id": "nick-szabo-007",
+      "text": "The problem is that most of human history has been dominated by security-hole-ridden systems that we call governments.",
+      "author": "Nick Szabo",
+      "source": "Twitter",
+      "year": 2018,
+      "tags": ["government", "security", "history"]
+    },
+    {
+      "id": "chaum-004",
+      "text": "Individuals should be able to pay for goods and services without fear of being watched, tracked, or profiled.",
+      "author": "David Chaum",
+      "source": "Various writings",
+      "year": 1985,
+      "tags": ["privacy", "payments", "surveillance"]
+    },
+    {
+      "id": "jpb-007",
+      "text": "The Internet is the most liberating tool for humanity ever invented, and also the best for surveillance. It's not one or the other. It's both.",
+      "author": "John Perry Barlow",
+      "source": "Various speeches",
+      "year": 2013,
+      "tags": ["internet", "surveillance", "freedom"]
+    },
+    {
+      "id": "aaronswartz-004",
+      "text": "Those with access to these resources — students, librarians, scientists — have been given an enormous privilege. You get to feed at this banquet of knowledge while the rest of the world is locked out.",
+      "author": "Aaron Swartz",
+      "source": "Guerilla Open Access Manifesto",
+      "year": 2008,
+      "tags": ["open-access", "knowledge", "privilege"]
+    },
+    {
+      "id": "cody-wilson-004",
+      "text": "You can literally manufacture your freedom.",
+      "author": "Cody Wilson",
+      "source": "Various interviews",
+      "year": 2013,
+      "tags": ["freedom", "manufacturing", "3d-printing"]
+    },
+    {
+      "id": "ross-ulbricht-004",
+      "text": "I believed in the idea of giving people the freedom to buy and sell and connect with each other without the all-seeing eye of government watching every move.",
+      "author": "Ross Ulbricht",
+      "source": "Letter to Judge Forrest",
+      "year": 2015,
+      "tags": ["freedom", "privacy", "marketplace"]
+    }
+  ]
+}
