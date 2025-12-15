@@ -8,7 +8,11 @@
       "author": "Satoshi Nakamoto",
       "source": "BitcoinTalk Forum",
       "year": 2010,
-      "tags": ["bitcoin", "skeptics", "conviction"]
+      "tags": [
+        "bitcoin",
+        "skeptics",
+        "conviction"
+      ]
     },
     {
       "id": "satoshi-002",
@@ -16,7 +20,12 @@
       "author": "Satoshi Nakamoto",
       "source": "P2P Foundation",
       "year": 2009,
-      "tags": ["bitcoin", "trust", "central-banks", "fiat"]
+      "tags": [
+        "bitcoin",
+        "trust",
+        "central-banks",
+        "fiat"
+      ]
     },
     {
       "id": "satoshi-003",
@@ -24,7 +33,11 @@
       "author": "Satoshi Nakamoto",
       "source": "Cryptography Mailing List",
       "year": 2008,
-      "tags": ["bitcoin", "peer-to-peer", "electronic-cash"]
+      "tags": [
+        "bitcoin",
+        "peer-to-peer",
+        "electronic-cash"
+      ]
     },
     {
       "id": "satoshi-004",
@@ -32,7 +45,11 @@
       "author": "Satoshi Nakamoto",
       "source": "Bitcoin Whitepaper",
       "year": 2008,
-      "tags": ["bitcoin", "trustless", "whitepaper"]
+      "tags": [
+        "bitcoin",
+        "trustless",
+        "whitepaper"
+      ]
     },
     {
       "id": "satoshi-005",
@@ -40,7 +57,11 @@
       "author": "Satoshi Nakamoto",
       "source": "Email to Hal Finney",
       "year": 2009,
-      "tags": ["bitcoin", "adoption", "speculation"]
+      "tags": [
+        "bitcoin",
+        "adoption",
+        "speculation"
+      ]
     },
     {
       "id": "satoshi-006",
@@ -48,7 +69,11 @@
       "author": "Satoshi Nakamoto",
       "source": "BitcoinTalk Forum",
       "year": 2010,
-      "tags": ["bitcoin", "economics", "scarcity"]
+      "tags": [
+        "bitcoin",
+        "economics",
+        "scarcity"
+      ]
     },
     {
       "id": "satoshi-007",
@@ -56,7 +81,11 @@
       "author": "Satoshi Nakamoto",
       "source": "BitcoinTalk Forum",
       "year": 2010,
-      "tags": ["bitcoin", "protocol", "immutability"]
+      "tags": [
+        "bitcoin",
+        "protocol",
+        "immutability"
+      ]
     },
     {
       "id": "tim-may-001",
@@ -64,7 +93,11 @@
       "author": "Tim May",
       "source": "The Crypto Anarchist Manifesto",
       "year": 1988,
-      "tags": ["crypto-anarchy", "manifesto", "cypherpunk"]
+      "tags": [
+        "crypto-anarchy",
+        "manifesto",
+        "cypherpunk"
+      ]
     },
     {
       "id": "tim-may-002",
@@ -72,7 +105,11 @@
       "author": "Tim May",
       "source": "The Crypto Anarchist Manifesto",
       "year": 1988,
-      "tags": ["government", "regulation", "prophecy"]
+      "tags": [
+        "government",
+        "regulation",
+        "prophecy"
+      ]
     },
     {
       "id": "tim-may-003",
@@ -80,7 +117,11 @@
       "author": "Tim May",
       "source": "The Crypto Anarchist Manifesto",
       "year": 1988,
-      "tags": ["anonymity", "privacy", "technology"]
+      "tags": [
+        "anonymity",
+        "privacy",
+        "technology"
+      ]
     },
     {
       "id": "tim-may-004",
@@ -88,7 +129,11 @@
       "author": "Tim May",
       "source": "The Crypto Anarchist Manifesto",
       "year": 1988,
-      "tags": ["cryptography", "economics", "disruption"]
+      "tags": [
+        "cryptography",
+        "economics",
+        "disruption"
+      ]
     },
     {
       "id": "tim-may-005",
@@ -96,7 +141,11 @@
       "author": "Tim May",
       "source": "Cypherpunks Mailing List",
       "year": 1992,
-      "tags": ["crypto-anarchy", "law", "enforcement"]
+      "tags": [
+        "crypto-anarchy",
+        "law",
+        "enforcement"
+      ]
     },
     {
       "id": "eric-hughes-001",
@@ -104,7 +153,11 @@
       "author": "Eric Hughes",
       "source": "A Cypherpunk's Manifesto",
       "year": 1993,
-      "tags": ["privacy", "manifesto", "society"]
+      "tags": [
+        "privacy",
+        "manifesto",
+        "society"
+      ]
     },
     {
       "id": "eric-hughes-002",
@@ -112,7 +165,11 @@
       "author": "Eric Hughes",
       "source": "A Cypherpunk's Manifesto",
       "year": 1993,
-      "tags": ["cypherpunk", "code", "action"]
+      "tags": [
+        "cypherpunk",
+        "code",
+        "action"
+      ]
     },
     {
       "id": "eric-hughes-003",
@@ -120,7 +177,11 @@
       "author": "Eric Hughes",
       "source": "A Cypherpunk's Manifesto",
       "year": 1993,
-      "tags": ["privacy", "secrecy", "identity"]
+      "tags": [
+        "privacy",
+        "secrecy",
+        "identity"
+      ]
     },
     {
       "id": "eric-hughes-004",
@@ -128,7 +189,11 @@
       "author": "Eric Hughes",
       "source": "A Cypherpunk's Manifesto",
       "year": 1993,
-      "tags": ["privacy", "government", "corporations"]
+      "tags": [
+        "privacy",
+        "government",
+        "corporations"
+      ]
     },
     {
       "id": "eric-hughes-005",
@@ -136,23 +201,11 @@
       "author": "Eric Hughes",
       "source": "A Cypherpunk's Manifesto",
       "year": 1993,
-      "tags": ["privacy", "self-defense", "anonymous-transactions"]
-    },
-    {
-      "id": "julian-assange-001",
-      "text": "If wars can be started by lies, peace can be started by truth.",
-      "author": "Julian Assange",
-      "source": "Interview",
-      "year": 2011,
-      "tags": ["truth", "war", "peace", "transparency"]
-    },
-    {
-      "id": "julian-assange-002",
-      "text": "The goal is justice, the method is transparency.",
-      "author": "Julian Assange",
-      "source": "Twitter",
-      "year": 2011,
-      "tags": ["justice", "transparency", "wikileaks"]
+      "tags": [
+        "privacy",
+        "self-defense",
+        "anonymous-transactions"
+      ]
     },
     {
       "id": "julian-assange-003",
@@ -160,7 +213,11 @@
       "author": "Julian Assange",
       "source": "Cypherpunks: Freedom and the Future of the Internet",
       "year": 2012,
-      "tags": ["ethics", "power", "responsibility"]
+      "tags": [
+        "ethics",
+        "power",
+        "responsibility"
+      ]
     },
     {
       "id": "julian-assange-004",
@@ -168,7 +225,11 @@
       "author": "Julian Assange",
       "source": "State and Terrorist Conspiracies",
       "year": 2006,
-      "tags": ["justice", "action", "character"]
+      "tags": [
+        "justice",
+        "action",
+        "character"
+      ]
     },
     {
       "id": "julian-assange-005",
@@ -176,7 +237,11 @@
       "author": "Julian Assange",
       "source": "Cypherpunks: Freedom and the Future of the Internet",
       "year": 2012,
-      "tags": ["internet", "surveillance", "totalitarianism"]
+      "tags": [
+        "internet",
+        "surveillance",
+        "totalitarianism"
+      ]
     },
     {
       "id": "phil-zimmermann-001",
@@ -184,7 +249,11 @@
       "author": "Philip Zimmermann",
       "source": "Why I Wrote PGP",
       "year": 1991,
-      "tags": ["privacy", "encryption", "law"]
+      "tags": [
+        "privacy",
+        "encryption",
+        "law"
+      ]
     },
     {
       "id": "phil-zimmermann-002",
@@ -192,7 +261,11 @@
       "author": "Philip Zimmermann",
       "source": "Why I Wrote PGP",
       "year": 1991,
-      "tags": ["pgp", "privacy", "empowerment"]
+      "tags": [
+        "pgp",
+        "privacy",
+        "empowerment"
+      ]
     },
     {
       "id": "phil-zimmermann-003",
@@ -200,7 +273,11 @@
       "author": "Philip Zimmermann",
       "source": "Why I Wrote PGP",
       "year": 1991,
-      "tags": ["surveillance", "government", "privacy"]
+      "tags": [
+        "surveillance",
+        "government",
+        "privacy"
+      ]
     },
     {
       "id": "phil-zimmermann-004",
@@ -208,7 +285,11 @@
       "author": "Philip Zimmermann",
       "source": "Why I Wrote PGP",
       "year": 1991,
-      "tags": ["privacy", "encryption", "conformity"]
+      "tags": [
+        "privacy",
+        "encryption",
+        "conformity"
+      ]
     },
     {
       "id": "david-chaum-001",
@@ -216,15 +297,11 @@
       "author": "David Chaum",
       "source": "Security Without Identification",
       "year": 1985,
-      "tags": ["privacy", "transactions", "anonymity"]
-    },
-    {
-      "id": "david-chaum-002",
-      "text": "The difference between a bad electronic cash system and well-developed digital cash will determine whether we will have a dictatorship or a real democracy.",
-      "author": "David Chaum",
-      "source": "Interview",
-      "year": 1996,
-      "tags": ["digital-cash", "democracy", "dictatorship"]
+      "tags": [
+        "privacy",
+        "transactions",
+        "anonymity"
+      ]
     },
     {
       "id": "david-chaum-003",
@@ -232,15 +309,11 @@
       "author": "David Chaum",
       "source": "Communications of the ACM",
       "year": 1985,
-      "tags": ["privacy", "surveillance", "transactions"]
-    },
-    {
-      "id": "hal-finney-001",
-      "text": "Running bitcoin.",
-      "author": "Hal Finney",
-      "source": "Twitter",
-      "year": 2009,
-      "tags": ["bitcoin", "historic", "first-tweet"]
+      "tags": [
+        "privacy",
+        "surveillance",
+        "transactions"
+      ]
     },
     {
       "id": "hal-finney-002",
@@ -248,7 +321,11 @@
       "author": "Hal Finney",
       "source": "BitcoinTalk Forum",
       "year": 2010,
-      "tags": ["bitcoin", "banking", "gold"]
+      "tags": [
+        "bitcoin",
+        "banking",
+        "gold"
+      ]
     },
     {
       "id": "hal-finney-003",
@@ -256,7 +333,12 @@
       "author": "Hal Finney",
       "source": "BitcoinTalk Forum",
       "year": 2013,
-      "tags": ["bitcoin", "freedom", "future", "optimism"]
+      "tags": [
+        "bitcoin",
+        "freedom",
+        "future",
+        "optimism"
+      ]
     },
     {
       "id": "hal-finney-004",
@@ -264,7 +346,11 @@
       "author": "Hal Finney",
       "source": "BitcoinTalk Forum",
       "year": 2011,
-      "tags": ["bitcoin", "security", "economics"]
+      "tags": [
+        "bitcoin",
+        "security",
+        "economics"
+      ]
     },
     {
       "id": "hal-finney-005",
@@ -272,7 +358,11 @@
       "author": "Hal Finney",
       "source": "BitcoinTalk Forum",
       "year": 2013,
-      "tags": ["bitcoin", "satoshi", "history"]
+      "tags": [
+        "bitcoin",
+        "satoshi",
+        "history"
+      ]
     },
     {
       "id": "hal-finney-006",
@@ -280,7 +370,11 @@
       "author": "Hal Finney",
       "source": "Cryptography Mailing List",
       "year": 2008,
-      "tags": ["bitcoin", "security", "proof-of-work"]
+      "tags": [
+        "bitcoin",
+        "security",
+        "proof-of-work"
+      ]
     },
     {
       "id": "wei-dai-001",
@@ -288,7 +382,11 @@
       "author": "Wei Dai",
       "source": "b-money proposal",
       "year": 1998,
-      "tags": ["crypto-anarchy", "b-money", "governance"]
+      "tags": [
+        "crypto-anarchy",
+        "b-money",
+        "governance"
+      ]
     },
     {
       "id": "nick-szabo-001",
@@ -296,7 +394,11 @@
       "author": "Nick Szabo",
       "source": "Trusted Third Parties are Security Holes",
       "year": 2001,
-      "tags": ["security", "trust", "decentralization"]
+      "tags": [
+        "security",
+        "trust",
+        "decentralization"
+      ]
     },
     {
       "id": "nick-szabo-002",
@@ -304,7 +406,11 @@
       "author": "Nick Szabo",
       "source": "Smart Contracts: Building Blocks for Digital Markets",
       "year": 1996,
-      "tags": ["smart-contracts", "digital", "protocols"]
+      "tags": [
+        "smart-contracts",
+        "digital",
+        "protocols"
+      ]
     },
     {
       "id": "nick-szabo-003",
@@ -312,7 +418,11 @@
       "author": "Nick Szabo",
       "source": "Bit Gold",
       "year": 2005,
-      "tags": ["digital-currency", "central-bank", "international"]
+      "tags": [
+        "digital-currency",
+        "central-bank",
+        "international"
+      ]
     },
     {
       "id": "nick-szabo-004",
@@ -320,23 +430,11 @@
       "author": "Nick Szabo",
       "source": "Shelling Out: The Origins of Money",
       "year": 2002,
-      "tags": ["money", "civilization", "history"]
-    },
-    {
-      "id": "nick-szabo-005",
-      "text": "Bitcoin is the first practical solution to the Byzantine Generals Problem in an open permissionless environment.",
-      "author": "Nick Szabo",
-      "source": "Twitter",
-      "year": 2014,
-      "tags": ["bitcoin", "byzantine", "consensus"]
-    },
-    {
-      "id": "nick-szabo-006",
-      "text": "The most secure way to store private keys is on paper in a safe.",
-      "author": "Nick Szabo",
-      "source": "Twitter",
-      "year": 2017,
-      "tags": ["security", "private-keys", "storage"]
+      "tags": [
+        "money",
+        "civilization",
+        "history"
+      ]
     },
     {
       "id": "jpb-001",
@@ -344,7 +442,11 @@
       "author": "John Perry Barlow",
       "source": "A Declaration of the Independence of Cyberspace",
       "year": 1996,
-      "tags": ["cyberspace", "independence", "government"]
+      "tags": [
+        "cyberspace",
+        "independence",
+        "government"
+      ]
     },
     {
       "id": "jpb-002",
@@ -352,7 +454,11 @@
       "author": "John Perry Barlow",
       "source": "A Declaration of the Independence of Cyberspace",
       "year": 1996,
-      "tags": ["cyberspace", "philosophy", "digital-world"]
+      "tags": [
+        "cyberspace",
+        "philosophy",
+        "digital-world"
+      ]
     },
     {
       "id": "jpb-003",
@@ -360,7 +466,11 @@
       "author": "John Perry Barlow",
       "source": "A Declaration of the Independence of Cyberspace",
       "year": 1996,
-      "tags": ["government", "regulation", "cyberspace"]
+      "tags": [
+        "government",
+        "regulation",
+        "cyberspace"
+      ]
     },
     {
       "id": "jpb-004",
@@ -368,15 +478,11 @@
       "author": "John Perry Barlow",
       "source": "A Declaration of the Independence of Cyberspace",
       "year": 1996,
-      "tags": ["free-speech", "expression", "conformity"]
-    },
-    {
-      "id": "jpb-006",
-      "text": "Relying on the government to protect your privacy is like asking a peeping tom to install your window blinds.",
-      "author": "John Perry Barlow",
-      "source": "Various speeches",
-      "year": 1993,
-      "tags": ["privacy", "government", "trust"]
+      "tags": [
+        "free-speech",
+        "expression",
+        "conformity"
+      ]
     },
     {
       "id": "snowden-001",
@@ -384,7 +490,11 @@
       "author": "Edward Snowden",
       "source": "Reddit AMA",
       "year": 2015,
-      "tags": ["privacy", "free-speech", "rights"]
+      "tags": [
+        "privacy",
+        "free-speech",
+        "rights"
+      ]
     },
     {
       "id": "snowden-002",
@@ -392,7 +502,11 @@
       "author": "Edward Snowden",
       "source": "The Guardian Interview",
       "year": 2013,
-      "tags": ["surveillance", "privacy", "freedom"]
+      "tags": [
+        "surveillance",
+        "privacy",
+        "freedom"
+      ]
     },
     {
       "id": "snowden-003",
@@ -400,7 +514,11 @@
       "author": "Edward Snowden",
       "source": "The Guardian Interview",
       "year": 2013,
-      "tags": ["nsa", "surveillance", "mass-surveillance"]
+      "tags": [
+        "nsa",
+        "surveillance",
+        "mass-surveillance"
+      ]
     },
     {
       "id": "snowden-004",
@@ -408,7 +526,11 @@
       "author": "Edward Snowden",
       "source": "Permanent Record",
       "year": 2019,
-      "tags": ["patriotism", "constitution", "whistleblower"]
+      "tags": [
+        "patriotism",
+        "constitution",
+        "whistleblower"
+      ]
     },
     {
       "id": "snowden-005",
@@ -416,15 +538,11 @@
       "author": "Edward Snowden",
       "source": "The Guardian Q&A",
       "year": 2013,
-      "tags": ["encryption", "security", "privacy"]
-    },
-    {
-      "id": "snowden-006",
-      "text": "We are all combatants in a great cyberwar. Every system we build, every page we code, every network we link becomes another front in the fight for digital freedom.",
-      "author": "Edward Snowden",
-      "source": "Various speeches",
-      "year": 2016,
-      "tags": ["cyberwar", "digital-freedom", "technology"]
+      "tags": [
+        "encryption",
+        "security",
+        "privacy"
+      ]
     },
     {
       "id": "diffie-001",
@@ -432,7 +550,11 @@
       "author": "Whitfield Diffie",
       "source": "Congressional testimony",
       "year": 1993,
-      "tags": ["government", "citizens", "defense"]
+      "tags": [
+        "government",
+        "citizens",
+        "defense"
+      ]
     },
     {
       "id": "diffie-002",
@@ -440,15 +562,11 @@
       "author": "Whitfield Diffie",
       "source": "New Directions in Cryptography",
       "year": 1976,
-      "tags": ["cryptography", "public-key", "privacy"]
-    },
-    {
-      "id": "diffie-003",
-      "text": "It is insufficient to protect ourselves with laws; we need to protect ourselves with mathematics.",
-      "author": "Whitfield Diffie",
-      "source": "Various speeches",
-      "year": 1995,
-      "tags": ["cryptography", "law", "mathematics"]
+      "tags": [
+        "cryptography",
+        "public-key",
+        "privacy"
+      ]
     },
     {
       "id": "merkle-001",
@@ -456,7 +574,11 @@
       "author": "Ralph Merkle",
       "source": "Secrecy, Authentication, and Public Key Systems",
       "year": 1979,
-      "tags": ["digital-signatures", "cryptography", "authentication"]
+      "tags": [
+        "digital-signatures",
+        "cryptography",
+        "authentication"
+      ]
     },
     {
       "id": "merkle-002",
@@ -464,31 +586,11 @@
       "author": "Ralph Merkle",
       "source": "A Certified Digital Signature",
       "year": 1989,
-      "tags": ["hash-function", "cryptography", "one-way"]
-    },
-    {
-      "id": "adam-back-001",
-      "text": "Bitcoin is a technological tour de force.",
-      "author": "Adam Back",
-      "source": "Twitter",
-      "year": 2013,
-      "tags": ["bitcoin", "technology", "praise"]
-    },
-    {
-      "id": "adam-back-002",
-      "text": "Hashcash was a proof-of-work system designed to limit email spam and denial-of-service attacks. The same concept now secures bitcoin.",
-      "author": "Adam Back",
-      "source": "Various interviews",
-      "year": 2014,
-      "tags": ["hashcash", "proof-of-work", "bitcoin"]
-    },
-    {
-      "id": "adam-back-003",
-      "text": "The cypherpunks were right. We should have more privacy than governments allow.",
-      "author": "Adam Back",
-      "source": "Twitter",
-      "year": 2019,
-      "tags": ["cypherpunk", "privacy", "government"]
+      "tags": [
+        "hash-function",
+        "cryptography",
+        "one-way"
+      ]
     },
     {
       "id": "adam-back-004",
@@ -496,7 +598,11 @@
       "author": "Adam Back",
       "source": "Conference speech",
       "year": 2017,
-      "tags": ["bitcoin", "computer-science", "breakthrough"]
+      "tags": [
+        "bitcoin",
+        "computer-science",
+        "breakthrough"
+      ]
     },
     {
       "id": "cody-wilson-001",
@@ -504,15 +610,11 @@
       "author": "Cody Wilson",
       "source": "Come and Take It",
       "year": 2016,
-      "tags": ["3d-printing", "guns", "technology"]
-    },
-    {
-      "id": "cody-wilson-002",
-      "text": "Crypto anarchy means showing people you can exist outside of the state and its money.",
-      "author": "Cody Wilson",
-      "source": "Various interviews",
-      "year": 2014,
-      "tags": ["crypto-anarchy", "state", "money"]
+      "tags": [
+        "3d-printing",
+        "guns",
+        "technology"
+      ]
     },
     {
       "id": "ross-ulbricht-001",
@@ -520,7 +622,11 @@
       "author": "Ross Ulbricht",
       "source": "Letter to Judge Forrest",
       "year": 2015,
-      "tags": ["freedom", "choice", "empowerment"]
+      "tags": [
+        "freedom",
+        "choice",
+        "empowerment"
+      ]
     },
     {
       "id": "ross-ulbricht-002",
@@ -528,23 +634,11 @@
       "author": "Ross Ulbricht",
       "source": "Letter to Judge Forrest",
       "year": 2015,
-      "tags": ["freedom", "control", "autonomy"]
-    },
-    {
-      "id": "ross-ulbricht-003",
-      "text": "Silk Road was supposed to be about giving people the freedom to make their own choices.",
-      "author": "Ross Ulbricht",
-      "source": "Various letters",
-      "year": 2015,
-      "tags": ["silk-road", "freedom", "choice"]
-    },
-    {
-      "id": "appelbaum-001",
-      "text": "Anonymity is a shield from the tyranny of the majority.",
-      "author": "Jacob Appelbaum",
-      "source": "Various speeches",
-      "year": 2012,
-      "tags": ["anonymity", "tyranny", "majority"]
+      "tags": [
+        "freedom",
+        "control",
+        "autonomy"
+      ]
     },
     {
       "id": "appelbaum-002",
@@ -552,23 +646,11 @@
       "author": "Jacob Appelbaum",
       "source": "30C3 Congress",
       "year": 2013,
-      "tags": ["surveillance", "privacy", "digital-age"]
-    },
-    {
-      "id": "appelbaum-003",
-      "text": "Tor is one of the most important things we have for fighting mass surveillance.",
-      "author": "Jacob Appelbaum",
-      "source": "Various speeches",
-      "year": 2014,
-      "tags": ["tor", "surveillance", "anonymity"]
-    },
-    {
-      "id": "appelbaum-004",
-      "text": "The internet was designed without a security model, and we're paying for it now.",
-      "author": "Jacob Appelbaum",
-      "source": "Various speeches",
-      "year": 2015,
-      "tags": ["internet", "security", "design"]
+      "tags": [
+        "surveillance",
+        "privacy",
+        "digital-age"
+      ]
     },
     {
       "id": "stallman-001",
@@ -576,15 +658,11 @@
       "author": "Richard Stallman",
       "source": "GNU Project",
       "year": 1985,
-      "tags": ["free-software", "liberty", "open-source"]
-    },
-    {
-      "id": "stallman-002",
-      "text": "The only way to defend your freedom is to exercise it.",
-      "author": "Richard Stallman",
-      "source": "Various speeches",
-      "year": 1990,
-      "tags": ["freedom", "rights", "action"]
+      "tags": [
+        "free-software",
+        "liberty",
+        "open-source"
+      ]
     },
     {
       "id": "stallman-003",
@@ -592,7 +670,11 @@
       "author": "Richard Stallman",
       "source": "Free Software, Free Society",
       "year": 2002,
-      "tags": ["proprietary-software", "freedom", "justice"]
+      "tags": [
+        "proprietary-software",
+        "freedom",
+        "justice"
+      ]
     },
     {
       "id": "torvalds-001",
@@ -600,15 +682,11 @@
       "author": "Linus Torvalds",
       "source": "Linux Kernel Mailing List",
       "year": 2000,
-      "tags": ["code", "action", "open-source"]
-    },
-    {
-      "id": "torvalds-002",
-      "text": "Software is like sex: it's better when it's free.",
-      "author": "Linus Torvalds",
-      "source": "Various interviews",
-      "year": 1996,
-      "tags": ["free-software", "open-source", "humor"]
+      "tags": [
+        "code",
+        "action",
+        "open-source"
+      ]
     },
     {
       "id": "aaronswartz-001",
@@ -616,7 +694,11 @@
       "author": "Aaron Swartz",
       "source": "Guerilla Open Access Manifesto",
       "year": 2008,
-      "tags": ["information", "power", "open-access"]
+      "tags": [
+        "information",
+        "power",
+        "open-access"
+      ]
     },
     {
       "id": "aaronswartz-002",
@@ -624,15 +706,11 @@
       "author": "Aaron Swartz",
       "source": "Guerilla Open Access Manifesto",
       "year": 2008,
-      "tags": ["justice", "civil-disobedience", "open-access"]
-    },
-    {
-      "id": "aaronswartz-003",
-      "text": "Be curious. Read widely. Try new things. What people call intelligence just boils down to curiosity.",
-      "author": "Aaron Swartz",
-      "source": "Blog post",
-      "year": 2006,
-      "tags": ["curiosity", "learning", "intelligence"]
+      "tags": [
+        "justice",
+        "civil-disobedience",
+        "open-access"
+      ]
     },
     {
       "id": "doctorow-002",
@@ -640,7 +718,11 @@
       "author": "Cory Doctorow",
       "source": "Little Brother",
       "year": 2008,
-      "tags": ["security", "hacking", "truth"]
+      "tags": [
+        "security",
+        "hacking",
+        "truth"
+      ]
     },
     {
       "id": "bruce-schneier-001",
@@ -648,15 +730,11 @@
       "author": "Bruce Schneier",
       "source": "Secrets and Lies",
       "year": 2000,
-      "tags": ["security", "process", "technology"]
-    },
-    {
-      "id": "bruce-schneier-002",
-      "text": "The user's going to pick dancing pigs over security every time.",
-      "author": "Bruce Schneier",
-      "source": "Various speeches",
-      "year": 2000,
-      "tags": ["security", "usability", "human-nature"]
+      "tags": [
+        "security",
+        "process",
+        "technology"
+      ]
     },
     {
       "id": "bruce-schneier-003",
@@ -664,7 +742,11 @@
       "author": "Bruce Schneier",
       "source": "Secrets and Lies",
       "year": 2000,
-      "tags": ["security", "technology", "problems"]
+      "tags": [
+        "security",
+        "technology",
+        "problems"
+      ]
     },
     {
       "id": "bruce-schneier-004",
@@ -672,7 +754,11 @@
       "author": "Bruce Schneier",
       "source": "Data and Goliath",
       "year": 2015,
-      "tags": ["cryptography", "liberty", "surveillance"]
+      "tags": [
+        "cryptography",
+        "liberty",
+        "surveillance"
+      ]
     },
     {
       "id": "antonopoulos-001",
@@ -680,15 +766,11 @@
       "author": "Andreas Antonopoulos",
       "source": "Mastering Bitcoin",
       "year": 2014,
-      "tags": ["bitcoin", "internet", "money"]
-    },
-    {
-      "id": "antonopoulos-002",
-      "text": "Your keys, your bitcoin. Not your keys, not your bitcoin.",
-      "author": "Andreas Antonopoulos",
-      "source": "Various speeches",
-      "year": 2016,
-      "tags": ["bitcoin", "self-custody", "keys"]
+      "tags": [
+        "bitcoin",
+        "internet",
+        "money"
+      ]
     },
     {
       "id": "antonopoulos-003",
@@ -696,15 +778,11 @@
       "author": "Andreas Antonopoulos",
       "source": "The Internet of Money",
       "year": 2016,
-      "tags": ["bitcoin", "trust", "platform"]
-    },
-    {
-      "id": "antonopoulos-004",
-      "text": "The banks are afraid of bitcoin. They're afraid of what happens when people realize they don't need banks.",
-      "author": "Andreas Antonopoulos",
-      "source": "Various speeches",
-      "year": 2017,
-      "tags": ["bitcoin", "banks", "disruption"]
+      "tags": [
+        "bitcoin",
+        "trust",
+        "platform"
+      ]
     },
     {
       "id": "fiatjaf-001",
@@ -712,23 +790,11 @@
       "author": "fiatjaf",
       "source": "Nostr Protocol Documentation",
       "year": 2020,
-      "tags": ["nostr", "protocol", "censorship-resistance"]
-    },
-    {
-      "id": "jack-dorsey-001",
-      "text": "Bitcoin changes absolutely everything.",
-      "author": "Jack Dorsey",
-      "source": "Twitter",
-      "year": 2021,
-      "tags": ["bitcoin", "change", "revolution"]
-    },
-    {
-      "id": "jack-dorsey-002",
-      "text": "Bitcoin is the native currency of the internet.",
-      "author": "Jack Dorsey",
-      "source": "Various interviews",
-      "year": 2021,
-      "tags": ["bitcoin", "internet", "currency"]
+      "tags": [
+        "nostr",
+        "protocol",
+        "censorship-resistance"
+      ]
     },
     {
       "id": "moxie-001",
@@ -736,7 +802,11 @@
       "author": "Moxie Marlinspike",
       "source": "My First Impressions of Web3",
       "year": 2022,
-      "tags": ["decentralization", "servers", "users"]
+      "tags": [
+        "decentralization",
+        "servers",
+        "users"
+      ]
     },
     {
       "id": "moxie-002",
@@ -744,7 +814,11 @@
       "author": "Moxie Marlinspike",
       "source": "Signal blog",
       "year": 2016,
-      "tags": ["encryption", "communication", "privacy"]
+      "tags": [
+        "encryption",
+        "communication",
+        "privacy"
+      ]
     },
     {
       "id": "satoshi-008",
@@ -752,7 +826,12 @@
       "author": "Satoshi Nakamoto",
       "source": "Bitcoin Genesis Block",
       "year": 2009,
-      "tags": ["bitcoin", "genesis", "banks", "historic"]
+      "tags": [
+        "bitcoin",
+        "genesis",
+        "banks",
+        "historic"
+      ]
     },
     {
       "id": "satoshi-009",
@@ -760,7 +839,11 @@
       "author": "Satoshi Nakamoto",
       "source": "BitcoinTalk Forum",
       "year": 2010,
-      "tags": ["bitcoin", "communication", "innovation"]
+      "tags": [
+        "bitcoin",
+        "communication",
+        "innovation"
+      ]
     },
     {
       "id": "tim-may-006",
@@ -768,7 +851,11 @@
       "author": "Tim May",
       "source": "Cypherpunks Mailing List",
       "year": 1993,
-      "tags": ["cryptography", "violence", "mathematics"]
+      "tags": [
+        "cryptography",
+        "violence",
+        "mathematics"
+      ]
     },
     {
       "id": "hal-finney-007",
@@ -776,15 +863,11 @@
       "author": "Hal Finney",
       "source": "BitcoinTalk Forum",
       "year": 2013,
-      "tags": ["legacy", "hope", "future"]
-    },
-    {
-      "id": "snowden-007",
-      "text": "You can't have 100% security and then also have 100% privacy and zero inconvenience. We're going to have to make some choices as a society.",
-      "author": "Edward Snowden",
-      "source": "Various interviews",
-      "year": 2014,
-      "tags": ["security", "privacy", "tradeoffs"]
+      "tags": [
+        "legacy",
+        "hope",
+        "future"
+      ]
     },
     {
       "id": "assange-007",
@@ -792,31 +875,11 @@
       "author": "Julian Assange",
       "source": "Cypherpunks: Freedom and the Future of the Internet",
       "year": 2012,
-      "tags": ["cryptography", "activism", "non-violence"]
-    },
-    {
-      "id": "nick-szabo-007",
-      "text": "The problem is that most of human history has been dominated by security-hole-ridden systems that we call governments.",
-      "author": "Nick Szabo",
-      "source": "Twitter",
-      "year": 2018,
-      "tags": ["government", "security", "history"]
-    },
-    {
-      "id": "chaum-004",
-      "text": "Individuals should be able to pay for goods and services without fear of being watched, tracked, or profiled.",
-      "author": "David Chaum",
-      "source": "Various writings",
-      "year": 1985,
-      "tags": ["privacy", "payments", "surveillance"]
-    },
-    {
-      "id": "jpb-007",
-      "text": "The Internet is the most liberating tool for humanity ever invented, and also the best for surveillance. It's not one or the other. It's both.",
-      "author": "John Perry Barlow",
-      "source": "Various speeches",
-      "year": 2013,
-      "tags": ["internet", "surveillance", "freedom"]
+      "tags": [
+        "cryptography",
+        "activism",
+        "non-violence"
+      ]
     },
     {
       "id": "aaronswartz-004",
@@ -824,15 +887,11 @@
       "author": "Aaron Swartz",
       "source": "Guerilla Open Access Manifesto",
       "year": 2008,
-      "tags": ["open-access", "knowledge", "privilege"]
-    },
-    {
-      "id": "cody-wilson-004",
-      "text": "You can literally manufacture your freedom.",
-      "author": "Cody Wilson",
-      "source": "Various interviews",
-      "year": 2013,
-      "tags": ["freedom", "manufacturing", "3d-printing"]
+      "tags": [
+        "open-access",
+        "knowledge",
+        "privilege"
+      ]
     },
     {
       "id": "ross-ulbricht-004",
@@ -840,7 +899,11 @@
       "author": "Ross Ulbricht",
       "source": "Letter to Judge Forrest",
       "year": 2015,
-      "tags": ["freedom", "privacy", "marketplace"]
+      "tags": [
+        "freedom",
+        "privacy",
+        "marketplace"
+      ]
     },
     {
       "id": "gilmore-001",
@@ -848,15 +911,12 @@
       "author": "John Gilmore",
       "source": "Time Magazine",
       "year": 1993,
-      "tags": ["censorship", "internet", "freedom", "resilience"]
-    },
-    {
-      "id": "gilmore-006",
-      "text": "The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had.",
-      "author": "John Gilmore",
-      "source": "Various interviews",
-      "year": 1993,
-      "tags": ["internet", "anarchy", "decentralization", "freedom"]
+      "tags": [
+        "censorship",
+        "internet",
+        "freedom",
+        "resilience"
+      ]
     }
   ]
 }
