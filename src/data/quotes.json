@@ -1313,19 +1313,6 @@
       ]
     },
     {
-      "id": "jim-bell-002",
-      "text": "How can we keep the government from banning encryption, digital cash, and other systems that will improve our freedom?",
-      "author": "Jim Bell",
-      "source": "Assassination Politics",
-      "year": 1997,
-      "tags": [
-        "encryption",
-        "digital-cash",
-        "freedom",
-        "government"
-      ]
-    },
-    {
       "id": "jim-bell-003",
       "text": "Using modern methods of public-key encryption and anonymous 'digital cash,' it would be possible to make such awards in such a way so that nobody knows who is getting awarded the money, only that the award is being given.",
       "author": "Jim Bell",
@@ -1339,18 +1326,6 @@
       ]
     },
     {
-      "id": "jim-bell-004",
-      "text": "The result is that the recipient would be absolutely untraceable.",
-      "author": "Jim Bell",
-      "source": "Assassination Politics",
-      "year": 1997,
-      "tags": [
-        "anonymity",
-        "privacy",
-        "untraceable"
-      ]
-    },
-    {
       "id": "jim-bell-005",
       "text": "Somebody had to be the first one to start banging on the Berlin Wall, with a sledgehammer, in 1989. Somebody had to be the first to walk through. Somebody had to be the first to stand up and say, 'Enough!'",
       "author": "Jim Bell",
@@ -1360,6 +1335,83 @@
         "resistance",
         "freedom",
         "revolution"
+      ]
+    },
+    {
+      "id": "tim-may-013",
+      "text": "Digital pseudonyms, the creation of persistent network personas that cannot be forged by others and yet which are unlinkable to the 'true names' of their owners, are finding major uses in ensuring free speech, in allowing controversial opinions to be aired, and in providing for economic transactions that cannot be blocked by local governments.",
+      "author": "Tim May",
+      "source": "Crypto Anarchy and Virtual Communities",
+      "year": 1994,
+      "tags": [
+        "digital-pseudonyms",
+        "free-speech",
+        "anonymity",
+        "economics"
+      ]
+    },
+    {
+      "id": "tim-may-014",
+      "text": "Digital cash, untraceable and anonymous (like real cash), is also coming, though various technical and practical hurdles remain.",
+      "author": "Tim May",
+      "source": "Crypto Anarchy and Virtual Communities",
+      "year": 1994,
+      "tags": [
+        "digital-cash",
+        "anonymity",
+        "privacy"
+      ]
+    },
+    {
+      "id": "tim-may-015",
+      "text": "'Swiss banks in cyberspace' will make economic transactions much more liquid and much less subject to local rules and regulations.",
+      "author": "Tim May",
+      "source": "Crypto Anarchy and Virtual Communities",
+      "year": 1994,
+      "tags": [
+        "digital-cash",
+        "economics",
+        "regulation",
+        "freedom"
+      ]
+    },
+    {
+      "id": "tim-may-016",
+      "text": "Governments see their powers eroded by these technologies, and are taking various well-known steps to try to limit the use of strong crypto by their subjects.",
+      "author": "Tim May",
+      "source": "Crypto Anarchy and Virtual Communities",
+      "year": 1994,
+      "tags": [
+        "government",
+        "cryptography",
+        "power",
+        "regulation"
+      ]
+    },
+    {
+      "id": "tim-may-017",
+      "text": "Technology has let the genie out of the bottle. Crypto anarchy is liberating individuals from coercion by their physical neighbors—who cannot know who they are on the Net—and from governments.",
+      "author": "Tim May",
+      "source": "Crypto Anarchy and Virtual Communities",
+      "year": 1994,
+      "tags": [
+        "crypto-anarchy",
+        "freedom",
+        "technology",
+        "government"
+      ]
+    },
+    {
+      "id": "tim-may-018",
+      "text": "A phase change is coming. Virtual communities are in their ascendancy, displacing conventional notions of nationhood. Geographic proximity is no longer as important as it once was.",
+      "author": "Tim May",
+      "source": "Crypto Anarchy and Virtual Communities",
+      "year": 1994,
+      "tags": [
+        "virtual-communities",
+        "nationhood",
+        "geography",
+        "change"
       ]
     }
   ]
