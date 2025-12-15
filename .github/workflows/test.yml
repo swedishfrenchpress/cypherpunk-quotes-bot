@@ -1,11 +1,7 @@
 name: Test
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  # Allows you to run this workflow manually from the Actions tab
+  # Only run manually from the Actions tab (no automatic triggers to avoid email notifications)
   workflow_dispatch:
 
 jobs:
