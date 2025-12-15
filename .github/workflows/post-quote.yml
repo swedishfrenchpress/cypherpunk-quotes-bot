@@ -46,13 +46,35 @@ jobs:
       - name: Install dependencies
         run: npm ci
       
-      - name: Download bot state
+      - name: Restore bot state
         uses: actions/cache@v4
+        id: cache
         with:
           path: bot-state.json
-          key: bot-state-${{ github.run_number }}
+          key: bot-state-v1
           restore-keys: |
-            bot-state-
+            bot-state-v1-
+      
+      - name: Show bot state (if exists)
+        run: |
+          if [ -f bot-state.json ]; then
+            echo "Existing bot state:"
+            cat bot-state.json
+          else
+            echo "No existing bot state - starting fresh"
+          fi
+      
+      - name: Verify NOSTR_PRIVATE_KEY is set
+        run: |
+          if [ -z "$NOSTR_PRIVATE_KEY" ]; then
+            echo "❌ ERROR: NOSTR_PRIVATE_KEY secret is not set!"
+            echo "Please add it in Settings > Secrets and variables > Actions"
+            exit 1
+          else
+            echo "✓ NOSTR_PRIVATE_KEY is set"
+          fi
+        env:
+          NOSTR_PRIVATE_KEY: ${{ secrets.NOSTR_PRIVATE_KEY }}
       
       - name: Run bot
         if: ${{ github.event.inputs.dry_run != 'true' }}
@@ -60,6 +82,7 @@ jobs:
           NOSTR_PRIVATE_KEY: ${{ secrets.NOSTR_PRIVATE_KEY }}
           STATE_FILE: ./bot-state.json
         run: npx tsx bot/index.ts
+        continue-on-error: false
       
       - name: Dry run
         if: ${{ github.event.inputs.dry_run == 'true' }}
@@ -68,10 +91,22 @@ jobs:
           echo "Bot state:"
           cat bot-state.json 2>/dev/null || echo "No state file yet"
       
+      - name: Save bot state
+        if: always()
+        uses: actions/cache@v4
+        with:
+          path: bot-state.json
+          key: bot-state-v1-${{ github.run_id }}
+          restore-keys: |
+            bot-state-v1-
+      
       - name: Upload bot state artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: bot-state-${{ github.run_number }}
+          name: bot-state
           path: bot-state.json
           retention-days: 90
+          if-no-files-found: ignore
+
+          if-no-files-found: ignore
