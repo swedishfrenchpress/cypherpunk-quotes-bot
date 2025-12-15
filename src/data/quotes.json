@@ -707,22 +707,6 @@
       "tags": ["cryptography", "liberty", "surveillance"]
     },
     {
-      "id": "andresen-001",
-      "text": "Bitcoin gives everybody access to a worldwide financial network using nothing but open source software.",
-      "author": "Gavin Andresen",
-      "source": "Various interviews",
-      "year": 2012,
-      "tags": ["bitcoin", "financial-network", "open-source"]
-    },
-    {
-      "id": "andresen-002",
-      "text": "The Bitcoin protocol should be treated as if it were consensus-bound.",
-      "author": "Gavin Andresen",
-      "source": "Bitcoin Improvement Proposals",
-      "year": 2013,
-      "tags": ["bitcoin", "protocol", "consensus"]
-    },
-    {
       "id": "antonopoulos-001",
       "text": "Bitcoin isn't just money for the internet. It's a new form of money that is native to the internet.",
       "author": "Andreas Antonopoulos",
