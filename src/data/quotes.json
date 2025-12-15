@@ -1159,6 +1159,55 @@
         "surveillance",
         "automation"
       ]
+    },
+    {
+      "id": "diffie-003",
+      "text": "I had this view of cryptography in which the critical value of cryptography was that you didn't have to trust other people.",
+      "author": "Whitfield Diffie",
+      "source": "ITAS Interview",
+      "year": 1992,
+      "tags": [
+        "cryptography",
+        "trust",
+        "autonomy"
+      ]
+    },
+    {
+      "id": "diffie-004",
+      "text": "If you encrypted your files, then if a court wanted your files they would have to come and threaten you and you would have the control to make the choice as to whether you would surrender your files or not.",
+      "author": "Whitfield Diffie",
+      "source": "ITAS Interview",
+      "year": 1992,
+      "tags": [
+        "encryption",
+        "privacy",
+        "control",
+        "courts"
+      ]
+    },
+    {
+      "id": "diffie-005",
+      "text": "I never understood the classical notion of a key distribution center, which is a trusted resource that you have to share.",
+      "author": "Whitfield Diffie",
+      "source": "ITAS Interview",
+      "year": 1992,
+      "tags": [
+        "cryptography",
+        "trust",
+        "key-distribution"
+      ]
+    },
+    {
+      "id": "diffie-006",
+      "text": "Cryptography was a technique that did not require your trusting other people.",
+      "author": "Whitfield Diffie",
+      "source": "ITAS Interview",
+      "year": 1992,
+      "tags": [
+        "cryptography",
+        "trust",
+        "privacy"
+      ]
     }
   ]
 }
