@@ -659,14 +659,6 @@
       "tags": ["curiosity", "learning", "intelligence"]
     },
     {
-      "id": "doctorow-001",
-      "text": "The Internet treats censorship as damage and routes around it.",
-      "author": "Cory Doctorow",
-      "source": "Various writings",
-      "year": 2005,
-      "tags": ["internet", "censorship", "resilience"]
-    },
-    {
       "id": "doctorow-002",
       "text": "Anyone who says they have a system that's perfectly secure from attackers is lying.",
       "author": "Cory Doctorow",
