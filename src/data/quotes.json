@@ -1439,6 +1439,44 @@
         "code",
         "activism"
       ]
+    },
+    {
+      "id": "david-friedman-001",
+      "text": "It is tempting to try for the best of both worlds—to restrict the privacy of bad people while protecting that of good, permit governments to collect detailed information about us but only allow it to be used for good purposes. But somebody must decide who are the good people and the bad, what purposes are worthy or unworthy. Whoever that somebody is will have his own agenda, his own purposes. Angels are in short supply.",
+      "author": "David D. Friedman",
+      "source": "The Case for Privacy",
+      "year": 2005,
+      "tags": [
+        "privacy",
+        "government",
+        "freedom",
+        "ethics"
+      ]
+    },
+    {
+      "id": "david-friedman-002",
+      "text": "Privacy gives each of us more control over his own life—which on average, if not in every case, is likely to lead to a freer world.",
+      "author": "David D. Friedman",
+      "source": "The Case for Privacy",
+      "year": 2005,
+      "tags": [
+        "privacy",
+        "freedom",
+        "control"
+      ]
+    },
+    {
+      "id": "david-friedman-003",
+      "text": "In the long run, the real battle will be the one fought in defense of technologies that protect privacy. That one we might win.",
+      "author": "David D. Friedman",
+      "source": "The Case for Privacy",
+      "year": 2005,
+      "tags": [
+        "privacy",
+        "technology",
+        "cryptography",
+        "freedom"
+      ]
     }
   ]
 }
