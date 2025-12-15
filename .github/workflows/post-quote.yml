@@ -108,5 +108,3 @@ jobs:
           path: bot-state.json
           retention-days: 90
           if-no-files-found: ignore
-
-          if-no-files-found: ignore
