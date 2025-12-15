@@ -12,6 +12,12 @@
  * - STATE_FILE: Path to state file for tracking posted quotes (default: ./bot-state.json)
  */
 
+// WebSocket polyfill for Node.js
+import { WebSocket } from 'ws';
+if (typeof globalThis.WebSocket === 'undefined') {
+  globalThis.WebSocket = WebSocket as any;
+}
+
 import { generateSecretKey, getPublicKey, finalizeEvent, NostrEvent } from 'nostr-tools/pure';
 import { Relay } from 'nostr-tools/relay';
 import { nip19 } from 'nostr-tools';
