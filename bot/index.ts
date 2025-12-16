@@ -50,7 +50,6 @@ const DEFAULT_RELAYS = [
   'wss://relay.ditto.pub',
 ];
 
-const HASHTAGS = ['cypherpunk', 'bitcoin', 'privacy', 'freedom'];
 const STATE_FILE = process.env.STATE_FILE || './bot-state.json';
 
 /**
@@ -118,10 +117,12 @@ function formatQuote(quote: Quote): string {
     content += ` (${quote.year})`;
   }
   
-  // Add hashtags (normalized to remove dashes and spaces)
-  const allTags = [...new Set([...HASHTAGS, ...quote.tags.slice(0, 3)])];
-  const normalizedTags = allTags.map(t => normalizeHashtag(t));
-  content += `\n\n${normalizedTags.map(t => `#${t}`).join(' ')}`;
+  // Add hashtags from quote (normalized to remove dashes and spaces)
+  // Only use quote-specific tags, no generic defaults
+  if (quote.tags.length > 0) {
+    const normalizedTags = quote.tags.map(t => normalizeHashtag(t));
+    content += `\n\n${normalizedTags.map(t => `#${t}`).join(' ')}`;
+  }
   
   return content;
 }
@@ -132,15 +133,11 @@ function formatQuote(quote: Quote): string {
 function generateTags(quote: Quote): string[][] {
   const tags: string[][] = [];
   
-  // Add hashtags (normalized to remove dashes and spaces)
-  HASHTAGS.forEach(tag => tags.push(['t', normalizeHashtag(tag)]));
+  // Add hashtags from quote (normalized to remove dashes and spaces)
+  // Only use quote-specific tags, no generic defaults
   quote.tags.forEach(tag => {
     const normalizedTag = normalizeHashtag(tag);
-    // Check if normalized tag is already in HASHTAGS (also normalized)
-    const normalizedHashtags = HASHTAGS.map(h => normalizeHashtag(h));
-    if (!normalizedHashtags.includes(normalizedTag)) {
-      tags.push(['t', normalizedTag]);
-    }
+    tags.push(['t', normalizedTag]);
   });
   
   // Add author as tag (normalized to remove dashes and spaces)
