@@ -1705,6 +1705,70 @@
         "cryptocurrency",
         "bitcoin"
       ]
+    },
+    {
+      "id": "hal-finney-019",
+      "text": "The notion that we can just fade into cypherspace and ignore the unpleasant political realities is unrealistic, in my view.",
+      "author": "Hal Finney",
+      "source": "Politics vs Technology",
+      "year": 1994,
+      "tags": [
+        "politics",
+        "technology",
+        "reality",
+        "cypherpunk"
+      ]
+    },
+    {
+      "id": "hal-finney-020",
+      "text": "Again, we need to win political, not technological, victories in order to protect our privacy.",
+      "author": "Hal Finney",
+      "source": "Politics vs Technology",
+      "year": 1994,
+      "tags": [
+        "politics",
+        "privacy",
+        "technology"
+      ]
+    },
+    {
+      "id": "hal-finney-021",
+      "text": "I even question Mike's point about the government's inability to ban books. Look at the difficulty in keeping PGP available in this country even though it is legal. Not only have FTP sites been steadily closed down, even the key servers have as well.",
+      "author": "Hal Finney",
+      "source": "Politics vs Technology",
+      "year": 1994,
+      "tags": [
+        "government",
+        "censorship",
+        "politics",
+        "pgp"
+      ]
+    },
+    {
+      "id": "hal-finney-022",
+      "text": "Fundamentally, I believe we will have the kind of society that most people want. If we want freedom and privacy, we must persuade others that these are worth having. There are no shortcuts.",
+      "author": "Hal Finney",
+      "source": "Politics vs Technology",
+      "year": 1994,
+      "tags": [
+        "freedom",
+        "privacy",
+        "society",
+        "persuasion"
+      ]
+    },
+    {
+      "id": "hal-finney-023",
+      "text": "Withdrawing into technology is like pulling the blankets over your head. It feels good for a while, until reality catches up. The next Clipper or Digital Telephony proposal will provide a rude awakening.",
+      "author": "Hal Finney",
+      "source": "Politics vs Technology",
+      "year": 1994,
+      "tags": [
+        "technology",
+        "politics",
+        "reality",
+        "warning"
+      ]
     }
   ]
 }
