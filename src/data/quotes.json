@@ -1667,6 +1667,44 @@
         "privacy",
         "warning"
       ]
+    },
+    {
+      "id": "andrew-poelstra-001",
+      "text": "Because Bitcoin's DMMS is computationally, and therefore thermodynamically, very expensive, alternatives have been proposed which seek to be economically and environmentally more efficient. One popular alternative, proof-of-stake, is frequently proposed as a mechanism for a cheap distributed consensus. As argued by the author in 2014, this is simply not workable.",
+      "author": "Andrew Poelstra",
+      "source": "On Stake and Consensus",
+      "year": 2015,
+      "tags": [
+        "bitcoin",
+        "proof-of-stake",
+        "consensus",
+        "cryptocurrency"
+      ]
+    },
+    {
+      "id": "andrew-poelstra-002",
+      "text": "Their non-anonymity also means that a dedicated attacker will eventually always be able to attack the system.",
+      "author": "Andrew Poelstra",
+      "source": "On Stake and Consensus",
+      "year": 2015,
+      "tags": [
+        "anonymity",
+        "security",
+        "attacks"
+      ]
+    },
+    {
+      "id": "andrew-poelstra-003",
+      "text": "It is important to realize that while distributed consensus is a hard problem, ordinary consensus is much easier and better studied, and can be solved some trillions of times more efficiently by use of trusted identifiable signing parties. Therefore, cryptocurrencies which compromise by introducing trusted parties, even under limited circumstances, should consider whether their new trust model is one for which consensus is easily achieved by some other mechanism.",
+      "author": "Andrew Poelstra",
+      "source": "On Stake and Consensus",
+      "year": 2015,
+      "tags": [
+        "consensus",
+        "trust",
+        "cryptocurrency",
+        "bitcoin"
+      ]
     }
   ]
 }
