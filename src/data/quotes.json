@@ -9,7 +9,7 @@
       "source": "The Crypto Anarchist Manifesto",
       "year": 1988,
       "tags": [
-        "crypto-anarchy",
+        "cryptoanarchy",
         "manifesto",
         "cypherpunk"
       ]
@@ -57,7 +57,7 @@
       "source": "Cypherpunks Mailing List",
       "year": 1992,
       "tags": [
-        "crypto-anarchy",
+        "cryptoanarchy",
         "law",
         "enforcement"
       ]
@@ -118,8 +118,8 @@
       "year": 1993,
       "tags": [
         "privacy",
-        "self-defense",
-        "anonymous-transactions"
+        "selfdefense",
+        "anonymoustransactions"
       ]
     },
     {
@@ -302,7 +302,7 @@
       "tags": [
         "bitcoin",
         "security",
-        "proof-of-work"
+        "proofofwork"
       ]
     },
     {
@@ -324,8 +324,8 @@
       "source": "b-money proposal",
       "year": 1998,
       "tags": [
-        "crypto-anarchy",
-        "b-money",
+        "cryptoanarchy",
+        "bmoney",
         "governance"
       ]
     },
@@ -348,7 +348,7 @@
       "source": "Smart Contracts: Building Blocks for Digital Markets",
       "year": 1996,
       "tags": [
-        "smart-contracts",
+        "smartcontracts",
         "digital",
         "protocols"
       ]
@@ -360,8 +360,8 @@
       "source": "Bit Gold",
       "year": 2005,
       "tags": [
-        "digital-currency",
-        "central-bank",
+        "digitalcurrency",
+        "centralbank",
         "international"
       ]
     },
@@ -398,7 +398,7 @@
       "tags": [
         "cyberspace",
         "philosophy",
-        "digital-world"
+        "digitalworld"
       ]
     },
     {
@@ -420,7 +420,7 @@
       "source": "A Declaration of the Independence of Cyberspace",
       "year": 1996,
       "tags": [
-        "free-speech",
+        "freespeech",
         "expression",
         "conformity"
       ]
@@ -433,7 +433,7 @@
       "year": 2015,
       "tags": [
         "privacy",
-        "free-speech",
+        "freespeech",
         "rights"
       ]
     },
@@ -458,7 +458,7 @@
       "tags": [
         "nsa",
         "surveillance",
-        "mass-surveillance"
+        "masssurveillance"
       ]
     },
     {
@@ -505,7 +505,7 @@
       "year": 1976,
       "tags": [
         "cryptography",
-        "public-key",
+        "publickey",
         "privacy"
       ]
     },
@@ -517,7 +517,7 @@
       "year": 2017,
       "tags": [
         "bitcoin",
-        "computer-science",
+        "computerscience",
         "breakthrough"
       ]
     },
@@ -528,7 +528,7 @@
       "source": "Come and Take It",
       "year": 2016,
       "tags": [
-        "3d-printing",
+        "3dprinting",
         "guns",
         "technology"
       ]
@@ -566,7 +566,7 @@
       "tags": [
         "surveillance",
         "privacy",
-        "digital-age"
+        "digitalage"
       ]
     },
     {
@@ -576,9 +576,9 @@
       "source": "GNU Project",
       "year": 1985,
       "tags": [
-        "free-software",
+        "freesoftware",
         "liberty",
-        "open-source"
+        "opensource"
       ]
     },
     {
@@ -588,7 +588,7 @@
       "source": "Free Software, Free Society",
       "year": 2002,
       "tags": [
-        "proprietary-software",
+        "proprietarysoftware",
         "freedom",
         "justice"
       ]
@@ -602,7 +602,7 @@
       "tags": [
         "code",
         "action",
-        "open-source"
+        "opensource"
       ]
     },
     {
@@ -614,7 +614,7 @@
       "tags": [
         "information",
         "power",
-        "open-access"
+        "openaccess"
       ]
     },
     {
@@ -625,8 +625,8 @@
       "year": 2008,
       "tags": [
         "justice",
-        "civil-disobedience",
-        "open-access"
+        "civildisobedience",
+        "openaccess"
       ]
     },
     {
@@ -710,7 +710,7 @@
       "tags": [
         "nostr",
         "protocol",
-        "censorship-resistance"
+        "censorshipresistance"
       ]
     },
     {
@@ -758,7 +758,7 @@
       "tags": [
         "cryptography",
         "activism",
-        "non-violence"
+        "nonviolence"
       ]
     },
     {
@@ -768,7 +768,7 @@
       "source": "Guerilla Open Access Manifesto",
       "year": 2008,
       "tags": [
-        "open-access",
+        "openaccess",
         "knowledge",
         "privilege"
       ]
@@ -807,7 +807,7 @@
       "tags": [
         "privacy",
         "society",
-        "user-control"
+        "usercontrol"
       ]
     },
     {
@@ -818,7 +818,7 @@
       "year": 2023,
       "tags": [
         "privacy",
-        "free-speech",
+        "freespeech",
         "freedom",
         "foundation"
       ]
@@ -947,7 +947,7 @@
       "year": 2003,
       "tags": [
         "activism",
-        "patriot-act",
+        "patriotact",
         "policy",
         "surveillance"
       ]
@@ -972,7 +972,7 @@
       "year": 2004,
       "tags": [
         "cryptography",
-        "user-awareness",
+        "userawareness",
         "education"
       ]
     },
@@ -998,7 +998,7 @@
         "internet",
         "security",
         "email",
-        "public-key"
+        "publickey"
       ]
     },
     {
@@ -1009,7 +1009,7 @@
       "year": 2004,
       "tags": [
         "security",
-        "product-design",
+        "productdesign",
         "transparency"
       ]
     },
@@ -1060,7 +1060,7 @@
       "tags": [
         "cryptography",
         "trust",
-        "key-distribution"
+        "keydistribution"
       ]
     },
     {
@@ -1082,9 +1082,9 @@
       "source": "A Certified Digital Signature",
       "year": 1989,
       "tags": [
-        "hash-function",
+        "hashfunction",
         "cryptography",
-        "one-way"
+        "oneway"
       ]
     },
     {
@@ -1095,8 +1095,8 @@
       "year": 2019,
       "tags": [
         "surveillance",
-        "bulk-collection",
-        "mass-surveillance"
+        "bulkcollection",
+        "masssurveillance"
       ]
     },
     {
@@ -1320,7 +1320,7 @@
       "year": 1997,
       "tags": [
         "encryption",
-        "digital-cash",
+        "digitalcash",
         "anonymity",
         "privacy"
       ]
@@ -1344,8 +1344,8 @@
       "source": "Crypto Anarchy and Virtual Communities",
       "year": 1994,
       "tags": [
-        "digital-pseudonyms",
-        "free-speech",
+        "digitalpseudonyms",
+        "freespeech",
         "anonymity",
         "economics"
       ]
@@ -1357,7 +1357,7 @@
       "source": "Crypto Anarchy and Virtual Communities",
       "year": 1994,
       "tags": [
-        "digital-cash",
+        "digitalcash",
         "anonymity",
         "privacy"
       ]
@@ -1369,7 +1369,7 @@
       "source": "Crypto Anarchy and Virtual Communities",
       "year": 1994,
       "tags": [
-        "digital-cash",
+        "digitalcash",
         "economics",
         "regulation",
         "freedom"
@@ -1395,7 +1395,7 @@
       "source": "Crypto Anarchy and Virtual Communities",
       "year": 1994,
       "tags": [
-        "crypto-anarchy",
+        "cryptoanarchy",
         "freedom",
         "technology",
         "government"
@@ -1408,7 +1408,7 @@
       "source": "Crypto Anarchy and Virtual Communities",
       "year": 1994,
       "tags": [
-        "virtual-communities",
+        "virtualcommunities",
         "nationhood",
         "geography",
         "change"
@@ -1549,7 +1549,7 @@
       "source": "The Beauty of ECash",
       "year": 1994,
       "tags": [
-        "digital-cash",
+        "digitalcash",
         "aesthetics",
         "cryptography",
         "validation"
@@ -1562,7 +1562,7 @@
       "source": "The Beauty of ECash",
       "year": 1994,
       "tags": [
-        "digital-cash",
+        "digitalcash",
         "aesthetics",
         "validation",
         "cryptography"
@@ -1588,7 +1588,7 @@
       "source": "Protecting privacy with electronic cash",
       "year": 1993,
       "tags": [
-        "digital-cash",
+        "digitalcash",
         "privacy",
         "transactions"
       ]
@@ -1600,7 +1600,7 @@
       "source": "Protecting privacy with electronic cash",
       "year": 1993,
       "tags": [
-        "digital-cash",
+        "digitalcash",
         "anonymity",
         "privacy"
       ]
@@ -1612,7 +1612,7 @@
       "source": "Protecting privacy with electronic cash",
       "year": 1993,
       "tags": [
-        "digital-cash",
+        "digitalcash",
         "privacy",
         "transactions"
       ]
@@ -1624,8 +1624,8 @@
       "source": "Protecting privacy with electronic cash",
       "year": 1993,
       "tags": [
-        "digital-cash",
-        "black-market",
+        "digitalcash",
+        "blackmarket",
         "cryptography",
         "resistance"
       ]
@@ -1663,7 +1663,7 @@
       "source": "Protecting privacy with electronic cash",
       "year": 1993,
       "tags": [
-        "digital-cash",
+        "digitalcash",
         "privacy",
         "warning"
       ]
@@ -1676,7 +1676,7 @@
       "year": 2015,
       "tags": [
         "bitcoin",
-        "proof-of-stake",
+        "proofofstake",
         "consensus",
         "cryptocurrency"
       ]
