@@ -22,7 +22,6 @@ import { generateSecretKey, getPublicKey, finalizeEvent, NostrEvent } from 'nost
 import { Relay } from 'nostr-tools/relay';
 import { nip19 } from 'nostr-tools';
 import * as fs from 'fs';
-import * as path from 'path';
 
 // Import quotes data
 import quotesData from '../src/data/quotes.json';
@@ -53,6 +52,14 @@ const DEFAULT_RELAYS = [
 
 const HASHTAGS = ['cypherpunk', 'bitcoin', 'privacy', 'freedom'];
 const STATE_FILE = process.env.STATE_FILE || './bot-state.json';
+
+/**
+ * Normalize hashtag by removing dashes and spaces
+ * This ensures hashtags work properly on Nostr (e.g., "open-source" -> "opensource")
+ */
+function normalizeHashtag(tag: string): string {
+  return tag.toLowerCase().replace(/[-\s]/g, '');
+}
 
 /**
  * Load bot state from file
@@ -111,9 +118,10 @@ function formatQuote(quote: Quote): string {
     content += ` (${quote.year})`;
   }
   
-  // Add hashtags
+  // Add hashtags (normalized to remove dashes and spaces)
   const allTags = [...new Set([...HASHTAGS, ...quote.tags.slice(0, 3)])];
-  content += `\n\n${allTags.map(t => `#${t}`).join(' ')}`;
+  const normalizedTags = allTags.map(t => normalizeHashtag(t));
+  content += `\n\n${normalizedTags.map(t => `#${t}`).join(' ')}`;
   
   return content;
 }
@@ -124,16 +132,19 @@ function formatQuote(quote: Quote): string {
 function generateTags(quote: Quote): string[][] {
   const tags: string[][] = [];
   
-  // Add hashtags
-  HASHTAGS.forEach(tag => tags.push(['t', tag]));
+  // Add hashtags (normalized to remove dashes and spaces)
+  HASHTAGS.forEach(tag => tags.push(['t', normalizeHashtag(tag)]));
   quote.tags.forEach(tag => {
-    if (!HASHTAGS.includes(tag)) {
-      tags.push(['t', tag]);
+    const normalizedTag = normalizeHashtag(tag);
+    // Check if normalized tag is already in HASHTAGS (also normalized)
+    const normalizedHashtags = HASHTAGS.map(h => normalizeHashtag(h));
+    if (!normalizedHashtags.includes(normalizedTag)) {
+      tags.push(['t', normalizedTag]);
     }
   });
   
-  // Add author as tag
-  const authorTag = quote.author.toLowerCase().replace(/\s+/g, '-');
+  // Add author as tag (normalized to remove dashes and spaces)
+  const authorTag = normalizeHashtag(quote.author);
   tags.push(['t', authorTag]);
   
   // Add client tag
