@@ -1541,6 +1541,32 @@
         "protocols",
         "systems"
       ]
+    },
+    {
+      "id": "hal-finney-009",
+      "text": "I have been working on ideas to display the information in digital cash in some other way that is more esthetic. It would be nice if the display somehow only worked for correctly signed cash notes, with forged cash not displaying anything nice.",
+      "author": "Hal Finney",
+      "source": "The Beauty of ECash",
+      "year": 1994,
+      "tags": [
+        "digital-cash",
+        "aesthetics",
+        "cryptography",
+        "validation"
+      ]
+    },
+    {
+      "id": "hal-finney-010",
+      "text": "If we had a mapping which took the fixed digicash bits onto the interesting parts of the fractal, then fake cash would not produce pretty pictures, while real cash would produce some part of a beautiful fractal. Again, you would have validation and beauty being tied together.",
+      "author": "Hal Finney",
+      "source": "The Beauty of ECash",
+      "year": 1994,
+      "tags": [
+        "digital-cash",
+        "aesthetics",
+        "validation",
+        "cryptography"
+      ]
     }
   ]
 }
