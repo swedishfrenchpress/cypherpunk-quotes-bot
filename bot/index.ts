@@ -178,32 +178,31 @@ async function publishToRelays(event: NostrEvent, relayUrls: string[]): Promise<
       console.log(`Connecting to ${url}...`);
       relay = await Relay.connect(url);
       
-      // Publish the event and wait for confirmation
-      const pub = relay.publish(event);
-      
-      // Wait for the relay to confirm with OK message
-      await new Promise<void>((resolve, reject) => {
-        const timeout = setTimeout(() => {
-          reject(new Error('Timeout waiting for relay confirmation'));
-        }, 10000); // 10 second timeout
-        
-        pub.on('ok', () => {
-          clearTimeout(timeout);
-          console.log(`✓ Published to ${url} (confirmed)`);
-          results.push({ relay: url, success: true });
-          resolve();
-        });
-        
-        pub.on('failed', (reason: string) => {
-          clearTimeout(timeout);
-          reject(new Error(`Relay rejected: ${reason}`));
-        });
+      // Publish the event - in newer versions of nostr-tools, this returns a Promise
+      // Add a timeout to prevent hanging
+      const publishPromise = relay.publish(event);
+      const timeoutPromise = new Promise<never>((_, reject) => {
+        setTimeout(() => reject(new Error('Timeout waiting for relay confirmation')), 10000);
       });
+      
+      await Promise.race([publishPromise, timeoutPromise]);
+      
+      // If we get here, the publish succeeded
+      console.log(`✓ Published to ${url}`);
+      results.push({ relay: url, success: true });
       
     } catch (error) {
       const message = error instanceof Error ? error.message : 'Unknown error';
-      console.log(`✗ Failed to publish to ${url}: ${message}`);
-      results.push({ relay: url, success: false, error: message });
+      
+      // "duplicate" errors mean the event was already published - treat as success
+      // This happens when the event was successfully posted but the relay reports it as duplicate
+      if (message.toLowerCase().includes('duplicate')) {
+        console.log(`✓ Published to ${url} (already exists)`);
+        results.push({ relay: url, success: true });
+      } else {
+        console.log(`✗ Failed to publish to ${url}: ${message}`);
+        results.push({ relay: url, success: false, error: message });
+      }
     } finally {
       if (relay) {
         // Give a moment before closing
