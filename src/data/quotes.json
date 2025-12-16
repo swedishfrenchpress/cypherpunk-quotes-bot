@@ -22,8 +22,7 @@
       "year": 1988,
       "tags": [
         "government",
-        "regulation",
-        "prophecy"
+        "regulation"
       ]
     },
     {
@@ -34,8 +33,7 @@
       "year": 1988,
       "tags": [
         "anonymity",
-        "privacy",
-        "technology"
+        "privacy"
       ]
     },
     {
@@ -46,8 +44,7 @@
       "year": 1988,
       "tags": [
         "cryptography",
-        "economics",
-        "disruption"
+        "economics"
       ]
     },
     {
@@ -70,8 +67,7 @@
       "year": 1993,
       "tags": [
         "privacy",
-        "manifesto",
-        "society"
+        "manifesto"
       ]
     },
     {
@@ -82,8 +78,7 @@
       "year": 1993,
       "tags": [
         "cypherpunk",
-        "code",
-        "action"
+        "code"
       ]
     },
     {
@@ -94,8 +89,7 @@
       "year": 1993,
       "tags": [
         "privacy",
-        "secrecy",
-        "identity"
+        "secrecy"
       ]
     },
     {
@@ -128,11 +122,7 @@
       "author": "Julian Assange",
       "source": "Cypherpunks: Freedom and the Future of the Internet",
       "year": 2012,
-      "tags": [
-        "ethics",
-        "power",
-        "responsibility"
-      ]
+      "tags": []
     },
     {
       "id": "julian-assange-004",
@@ -140,11 +130,7 @@
       "author": "Julian Assange",
       "source": "State and Terrorist Conspiracies",
       "year": 2006,
-      "tags": [
-        "justice",
-        "action",
-        "character"
-      ]
+      "tags": []
     },
     {
       "id": "julian-assange-005",
@@ -238,10 +224,7 @@
       "year": 1985,
       "tags": [
         "privacy",
-        "surveillance",
-        "society",
-        "control",
-        "future"
+        "surveillance"
       ]
     },
     {
@@ -264,9 +247,7 @@
       "year": 2013,
       "tags": [
         "bitcoin",
-        "freedom",
-        "future",
-        "optimism"
+        "freedom"
       ]
     },
     {
@@ -311,11 +292,7 @@
       "author": "Hal Finney",
       "source": "BitcoinTalk Forum",
       "year": 2013,
-      "tags": [
-        "legacy",
-        "hope",
-        "future"
-      ]
+      "tags": []
     },
     {
       "id": "wei-dai-001",
@@ -464,7 +441,6 @@
       "year": 1996,
       "tags": [
         "freespeech",
-        "expression",
         "conformity"
       ]
     },
@@ -476,8 +452,7 @@
       "year": 2015,
       "tags": [
         "privacy",
-        "freespeech",
-        "rights"
+        "freespeech"
       ]
     },
     {
@@ -536,7 +511,6 @@
       "year": 1993,
       "tags": [
         "government",
-        "citizens",
         "defense"
       ]
     },
@@ -560,8 +534,7 @@
       "year": 2017,
       "tags": [
         "bitcoin",
-        "computerscience",
-        "breakthrough"
+        "computerscience"
       ]
     },
     {
@@ -571,9 +544,7 @@
       "source": "Come and Take It",
       "year": 2016,
       "tags": [
-        "3dprinting",
-        "guns",
-        "technology"
+        "3dprinting"
       ]
     },
     {
@@ -584,7 +555,6 @@
       "year": 2015,
       "tags": [
         "freedom",
-        "choice",
         "empowerment"
       ]
     },
@@ -596,7 +566,6 @@
       "year": 2015,
       "tags": [
         "freedom",
-        "control",
         "autonomy"
       ]
     },
@@ -608,8 +577,7 @@
       "year": 2013,
       "tags": [
         "surveillance",
-        "privacy",
-        "digitalage"
+        "privacy"
       ]
     },
     {
@@ -632,8 +600,7 @@
       "year": 2002,
       "tags": [
         "proprietarysoftware",
-        "freedom",
-        "justice"
+        "freedom"
       ]
     },
     {
@@ -644,7 +611,6 @@
       "year": 2000,
       "tags": [
         "code",
-        "action",
         "opensource"
       ]
     },
@@ -655,8 +621,6 @@
       "source": "Guerilla Open Access Manifesto",
       "year": 2008,
       "tags": [
-        "information",
-        "power",
         "openaccess"
       ]
     },
@@ -667,7 +631,6 @@
       "source": "Guerilla Open Access Manifesto",
       "year": 2008,
       "tags": [
-        "justice",
         "civildisobedience",
         "openaccess"
       ]
@@ -679,9 +642,7 @@
       "source": "Little Brother",
       "year": 2008,
       "tags": [
-        "security",
-        "hacking",
-        "truth"
+        "security"
       ]
     },
     {
@@ -691,9 +652,7 @@
       "source": "Secrets and Lies",
       "year": 2000,
       "tags": [
-        "security",
-        "process",
-        "technology"
+        "security"
       ]
     },
     {
@@ -703,9 +662,7 @@
       "source": "Secrets and Lies",
       "year": 2000,
       "tags": [
-        "security",
-        "technology",
-        "problems"
+        "security"
       ]
     },
     {
@@ -740,8 +697,7 @@
       "year": 2016,
       "tags": [
         "bitcoin",
-        "trust",
-        "platform"
+        "trust"
       ]
     },
     {
@@ -763,9 +719,7 @@
       "source": "My First Impressions of Web3",
       "year": 2022,
       "tags": [
-        "decentralization",
-        "servers",
-        "users"
+        "decentralization"
       ]
     },
     {
@@ -776,7 +730,6 @@
       "year": 2016,
       "tags": [
         "encryption",
-        "communication",
         "privacy"
       ]
     },
@@ -800,7 +753,6 @@
       "year": 2012,
       "tags": [
         "cryptography",
-        "activism",
         "nonviolence"
       ]
     },
@@ -811,9 +763,7 @@
       "source": "Guerilla Open Access Manifesto",
       "year": 2008,
       "tags": [
-        "openaccess",
-        "knowledge",
-        "privilege"
+        "openaccess"
       ]
     },
     {
@@ -824,8 +774,7 @@
       "year": 2015,
       "tags": [
         "freedom",
-        "privacy",
-        "marketplace"
+        "privacy"
       ]
     },
     {
@@ -837,8 +786,7 @@
       "tags": [
         "censorship",
         "internet",
-        "freedom",
-        "resilience"
+        "freedom"
       ]
     },
     {
@@ -848,9 +796,7 @@
       "source": "Cypherpunk Technologies Press Release",
       "year": 2023,
       "tags": [
-        "privacy",
-        "society",
-        "usercontrol"
+        "privacy"
       ]
     },
     {
@@ -862,8 +808,7 @@
       "tags": [
         "privacy",
         "freespeech",
-        "freedom",
-        "foundation"
+        "freedom"
       ]
     },
     {
@@ -989,9 +934,7 @@
       "source": "GrepLaw",
       "year": 2003,
       "tags": [
-        "activism",
         "patriotact",
-        "policy",
         "surveillance"
       ]
     },
@@ -1002,9 +945,7 @@
       "source": "GrepLaw",
       "year": 2003,
       "tags": [
-        "cryptography",
-        "engineering",
-        "practicality"
+        "cryptography"
       ]
     },
     {
@@ -1014,9 +955,7 @@
       "source": "Charles Babbage Institute Oral History",
       "year": 2004,
       "tags": [
-        "cryptography",
-        "userawareness",
-        "education"
+        "cryptography"
       ]
     },
     {
@@ -1026,9 +965,7 @@
       "source": "Charles Babbage Institute Oral History",
       "year": 2004,
       "tags": [
-        "security",
-        "design",
-        "architecture"
+        "security"
       ]
     },
     {
@@ -1052,7 +989,6 @@
       "year": 2004,
       "tags": [
         "security",
-        "productdesign",
         "transparency"
       ]
     },
@@ -1065,8 +1001,7 @@
       "tags": [
         "encryption",
         "intelligence",
-        "surveillance",
-        "automation"
+        "surveillance"
       ]
     },
     {
@@ -1089,9 +1024,7 @@
       "year": 1992,
       "tags": [
         "encryption",
-        "privacy",
-        "control",
-        "courts"
+        "privacy"
       ]
     },
     {
@@ -1102,8 +1035,7 @@
       "year": 1992,
       "tags": [
         "cryptography",
-        "trust",
-        "keydistribution"
+        "trust"
       ]
     },
     {
@@ -1125,9 +1057,7 @@
       "source": "A Certified Digital Signature",
       "year": 1989,
       "tags": [
-        "hashfunction",
-        "cryptography",
-        "oneway"
+        "cryptography"
       ]
     },
     {
@@ -1138,7 +1068,6 @@
       "year": 2019,
       "tags": [
         "surveillance",
-        "bulkcollection",
         "masssurveillance"
       ]
     },
@@ -1150,9 +1079,7 @@
       "year": 2019,
       "tags": [
         "surveillance",
-        "privacy",
-        "exploitation",
-        "manipulation"
+        "privacy"
       ]
     },
     {
@@ -1176,9 +1103,7 @@
       "year": 2019,
       "tags": [
         "privacy",
-        "data",
-        "legal",
-        "ownership"
+        "legal"
       ]
     },
     {
@@ -1187,11 +1112,7 @@
       "author": "Edward Snowden",
       "source": "Joe Rogan Experience",
       "year": 2019,
-      "tags": [
-        "awareness",
-        "truth",
-        "denial"
-      ]
+      "tags": []
     },
     {
       "id": "assange-008",
@@ -1200,7 +1121,6 @@
       "source": "Forbes",
       "year": 2010,
       "tags": [
-        "technology",
         "law",
         "defense",
         "wikileaks"
@@ -1213,9 +1133,7 @@
       "source": "Forbes",
       "year": 2010,
       "tags": [
-        "courage",
-        "whistleblowing",
-        "activism"
+        "whistleblowing"
       ]
     },
     {
@@ -1239,9 +1157,7 @@
       "year": 2010,
       "tags": [
         "censorship",
-        "leaks",
-        "technology",
-        "circumvention"
+        "leaks"
       ]
     },
     {
@@ -1264,9 +1180,7 @@
       "year": 2015,
       "tags": [
         "cryptography",
-        "power",
-        "politics",
-        "ethics"
+        "politics"
       ]
     },
     {
@@ -1277,9 +1191,7 @@
       "year": 2015,
       "tags": [
         "cryptography",
-        "privacy",
-        "failure",
-        "responsibility"
+        "privacy"
       ]
     },
     {
@@ -1290,8 +1202,7 @@
       "year": 2015,
       "tags": [
         "cryptography",
-        "politics",
-        "awareness"
+        "politics"
       ]
     },
     {
@@ -1301,9 +1212,7 @@
       "source": "The Moral Character of Cryptographic Work",
       "year": 2015,
       "tags": [
-        "technology",
-        "politics",
-        "neutrality"
+        "politics"
       ]
     },
     {
@@ -1326,9 +1235,7 @@
       "year": 2015,
       "tags": [
         "cypherpunk",
-        "cryptography",
-        "values",
-        "ethics"
+        "cryptography"
       ]
     },
     {
@@ -1338,9 +1245,7 @@
       "source": "The Moral Character of Cryptographic Work",
       "year": 2015,
       "tags": [
-        "cryptography",
-        "power",
-        "responsibility"
+        "cryptography"
       ]
     },
     {
@@ -1376,8 +1281,7 @@
       "year": 1997,
       "tags": [
         "resistance",
-        "freedom",
-        "revolution"
+        "freedom"
       ]
     },
     {
@@ -1387,7 +1291,6 @@
       "source": "Crypto Anarchy and Virtual Communities",
       "year": 1994,
       "tags": [
-        "digitalpseudonyms",
         "freespeech",
         "anonymity",
         "economics"
@@ -1427,7 +1330,6 @@
       "tags": [
         "government",
         "cryptography",
-        "power",
         "regulation"
       ]
     },
@@ -1440,7 +1342,6 @@
       "tags": [
         "cryptoanarchy",
         "freedom",
-        "technology",
         "government"
       ]
     },
@@ -1450,12 +1351,7 @@
       "author": "Tim May",
       "source": "Crypto Anarchy and Virtual Communities",
       "year": 1994,
-      "tags": [
-        "virtualcommunities",
-        "nationhood",
-        "geography",
-        "change"
-      ]
+      "tags": []
     },
     {
       "id": "chuck-hammill-001",
@@ -1464,10 +1360,8 @@
       "source": "From Crossbows To Cryptography: Techno-Thwarting The State",
       "year": 1987,
       "tags": [
-        "technology",
         "government",
-        "freedom",
-        "bureaucracy"
+        "freedom"
       ]
     },
     {
@@ -1478,9 +1372,7 @@
       "year": null,
       "tags": [
         "cypherpunk",
-        "practical",
-        "code",
-        "activism"
+        "code"
       ]
     },
     {
@@ -1492,8 +1384,7 @@
       "tags": [
         "privacy",
         "government",
-        "freedom",
-        "ethics"
+        "freedom"
       ]
     },
     {
@@ -1504,8 +1395,7 @@
       "year": 2005,
       "tags": [
         "privacy",
-        "freedom",
-        "control"
+        "freedom"
       ]
     },
     {
@@ -1516,7 +1406,6 @@
       "year": 2005,
       "tags": [
         "privacy",
-        "technology",
         "cryptography",
         "freedom"
       ]
@@ -1554,9 +1443,7 @@
       "source": "The libbitcoin Manifesto",
       "year": 2013,
       "tags": [
-        "activism",
         "resistance",
-        "action",
         "freedom"
       ]
     },
@@ -1568,7 +1455,6 @@
       "year": 2013,
       "tags": [
         "cryptography",
-        "idealism",
         "cypherpunk"
       ]
     },
@@ -1581,8 +1467,7 @@
       "tags": [
         "bitcoin",
         "cryptography",
-        "protocols",
-        "systems"
+        "protocols"
       ]
     },
     {
@@ -1593,9 +1478,7 @@
       "year": 1994,
       "tags": [
         "digitalcash",
-        "aesthetics",
-        "cryptography",
-        "validation"
+        "cryptography"
       ]
     },
     {
@@ -1606,8 +1489,6 @@
       "year": 1994,
       "tags": [
         "digitalcash",
-        "aesthetics",
-        "validation",
         "cryptography"
       ]
     },
@@ -1620,8 +1501,7 @@
       "tags": [
         "cryptography",
         "privacy",
-        "government",
-        "technology"
+        "government"
       ]
     },
     {
@@ -1668,7 +1548,6 @@
       "year": 1993,
       "tags": [
         "digitalcash",
-        "blackmarket",
         "cryptography",
         "resistance"
       ]
@@ -1681,8 +1560,6 @@
       "year": 1993,
       "tags": [
         "government",
-        "power",
-        "technology",
         "freedom"
       ]
     },
@@ -1695,7 +1572,6 @@
       "tags": [
         "cryptography",
         "privacy",
-        "control",
         "government"
       ]
     },
@@ -1719,7 +1595,6 @@
       "year": 2015,
       "tags": [
         "bitcoin",
-        "proofofstake",
         "consensus",
         "cryptocurrency"
       ]
@@ -1732,8 +1607,7 @@
       "year": 2015,
       "tags": [
         "anonymity",
-        "security",
-        "attacks"
+        "security"
       ]
     },
     {
@@ -1757,8 +1631,6 @@
       "year": 1994,
       "tags": [
         "politics",
-        "technology",
-        "reality",
         "cypherpunk"
       ]
     },
@@ -1770,8 +1642,7 @@
       "year": 1994,
       "tags": [
         "politics",
-        "privacy",
-        "technology"
+        "privacy"
       ]
     },
     {
@@ -1795,9 +1666,7 @@
       "year": 1994,
       "tags": [
         "freedom",
-        "privacy",
-        "society",
-        "persuasion"
+        "privacy"
       ]
     },
     {
@@ -1807,9 +1676,7 @@
       "source": "Politics vs Technology",
       "year": 1994,
       "tags": [
-        "technology",
         "politics",
-        "reality",
         "warning"
       ]
     }
