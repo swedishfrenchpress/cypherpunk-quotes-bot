@@ -1567,6 +1567,106 @@
         "validation",
         "cryptography"
       ]
+    },
+    {
+      "id": "hal-finney-011",
+      "text": "But there is another solution, one advocated forcefully by computer scientist David Chaum. Rather than relying on new laws and more government, Chaum looks to technical solutions. And these solutions rely on the ancient science devoted to keeping information confidential: cryptography.",
+      "author": "Hal Finney",
+      "source": "Protecting privacy with electronic cash",
+      "year": 1993,
+      "tags": [
+        "cryptography",
+        "privacy",
+        "government",
+        "technology"
+      ]
+    },
+    {
+      "id": "hal-finney-012",
+      "text": "If you go into a store today and make a purchase with cash, no records are left tying you personally to the transaction. With no records, there is nothing to go into a computer database. The goal of electronic cash is to allow these same kinds of private transactions to take place electronically.",
+      "author": "Hal Finney",
+      "source": "Protecting privacy with electronic cash",
+      "year": 1993,
+      "tags": [
+        "digital-cash",
+        "privacy",
+        "transactions"
+      ]
+    },
+    {
+      "id": "hal-finney-013",
+      "text": "Just as a merchant will accept cash from a customer without demanding proof of identity, we also want our electronic money system to allow similar transactions to take place, without the identity of the people involved being revealed to each other, or even to someone who is monitoring the network.",
+      "author": "Hal Finney",
+      "source": "Protecting privacy with electronic cash",
+      "year": 1993,
+      "tags": [
+        "digital-cash",
+        "anonymity",
+        "privacy"
+      ]
+    },
+    {
+      "id": "hal-finney-014",
+      "text": "The goal of electronic cash is to allow these same kinds of private transactions to take place electronically.",
+      "author": "Hal Finney",
+      "source": "Protecting privacy with electronic cash",
+      "year": 1993,
+      "tags": [
+        "digital-cash",
+        "privacy",
+        "transactions"
+      ]
+    },
+    {
+      "id": "hal-finney-015",
+      "text": "Some have predicted that the initial success of electronic money may be in the form of a technically illegal 'black market' where crypto-hackers buy and sell information, using cryptography to protect against government crackdowns.",
+      "author": "Hal Finney",
+      "source": "Protecting privacy with electronic cash",
+      "year": 1993,
+      "tags": [
+        "digital-cash",
+        "black-market",
+        "cryptography",
+        "resistance"
+      ]
+    },
+    {
+      "id": "hal-finney-016",
+      "text": "We are on a path today which, if nothing changes, will lead to a world with the potential for greater government power, intrusion, and control. We can change this; these technologies can revolutionize the relationship between individuals and organizations, putting them both on an equal footing for the first time.",
+      "author": "Hal Finney",
+      "source": "Protecting privacy with electronic cash",
+      "year": 1993,
+      "tags": [
+        "government",
+        "power",
+        "technology",
+        "freedom"
+      ]
+    },
+    {
+      "id": "hal-finney-017",
+      "text": "Cryptography can make possible a world in which people have control over information about themselves, not because government has granted them that control, but because only they possess the cryptographic keys to reveal that information. This is the world we are working to create.",
+      "author": "Hal Finney",
+      "source": "Protecting privacy with electronic cash",
+      "year": 1993,
+      "tags": [
+        "cryptography",
+        "privacy",
+        "control",
+        "government"
+      ]
+    },
+    {
+      "id": "hal-finney-018",
+      "text": "If you see a proposal for an electronic money system, check to see whether it has the ability to preserve the privacy of financial transactions the way paper money does today. If not, realize that the proposal is designed to harm, not help, individual privacy.",
+      "author": "Hal Finney",
+      "source": "Protecting privacy with electronic cash",
+      "year": 1993,
+      "tags": [
+        "digital-cash",
+        "privacy",
+        "warning"
+      ]
     }
   ]
 }
