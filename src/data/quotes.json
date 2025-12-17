@@ -1952,6 +1952,85 @@
         "privacy",
         "warning"
       ]
+    },
+    {
+      "id": "enrico-beltramini-001",
+      "text": "The key question at the heart of the cypherpunk movement was not freedom, but the crisis of freedom in a situation of extensive social control of dominant institutions over private individuals.",
+      "author": "Enrico Beltramini",
+      "source": "Against technocratic authoritarianism",
+      "year": 2020,
+      "tags": [
+        "cypherpunk",
+        "freedom",
+        "surveillance",
+        "control"
+      ]
+    },
+    {
+      "id": "patrick-anderson-001",
+      "text": "The cypherpunk movement provides an intelligible, viable, and effective model of data activism and strategic agency.",
+      "author": "Patrick D. Anderson",
+      "source": "Of Cypherpunks and Sousveillance",
+      "year": 2022,
+      "tags": [
+        "cypherpunk",
+        "data activism",
+        "resistance",
+        "agency"
+      ]
+    },
+    {
+      "id": "patrick-anderson-002",
+      "text": "By understanding that cypherpunk theory and practice each consist of two complementary dynamics—privacy/transparency, pro-active/re-active—it becomes possible to understand that the cypherpunk movement provides the basis for activists and citizens to resist large surveillance institutions.",
+      "author": "Patrick D. Anderson",
+      "source": "Of Cypherpunks and Sousveillance",
+      "year": 2022,
+      "tags": [
+        "cypherpunk",
+        "privacy",
+        "transparency",
+        "resistance",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "diffie-hellman-001",
+      "text": "WE STAND TODAY on the brink of a revolution in cryptography.",
+      "author": "Whitfield Diffie and Martin E. Hellman",
+      "source": "New Directions in Cryptography",
+      "year": 1976,
+      "tags": [
+        "cryptography",
+        "revolution",
+        "privacy",
+        "public key"
+      ]
+    },
+    {
+      "id": "diffie-hellman-002",
+      "text": "The last characteristic which we note in the history of cryptography is the division between amateur and professional cryptographers. Skill in production cryptanalysis has always been heavily on the side of the professionals, but innovation, particularly in the design of new types of cryptographic systems, has come primarily from the amateurs.",
+      "author": "Whitfield Diffie and Martin E. Hellman",
+      "source": "New Directions in Cryptography",
+      "year": 1976,
+      "tags": [
+        "cryptography",
+        "innovation",
+        "amateur",
+        "freedom"
+      ]
+    },
+    {
+      "id": "diffie-hellman-003",
+      "text": "We hope this will inspire others to work in this fascinating area in which participation has been discouraged in the recent past by a nearly total government monopoly.",
+      "author": "Whitfield Diffie and Martin E. Hellman",
+      "source": "New Directions in Cryptography",
+      "year": 1976,
+      "tags": [
+        "cryptography",
+        "government",
+        "monopoly",
+        "freedom"
+      ]
     }
   ]
 }
