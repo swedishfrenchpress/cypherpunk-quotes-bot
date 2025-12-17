@@ -1,4 +1,4 @@
-# 🔐 Cypherpunk Quotes Bot
+# Cypherpunk Quotes Bot
 
 An automated Nostr bot that posts inspirational quotes from cypherpunks, cryptographers, hackers, and digital rights activists. Follow this bot on Nostr to receive a steady stream of thought-provoking wisdom in your feed.
 
@@ -6,16 +6,16 @@ An automated Nostr bot that posts inspirational quotes from cypherpunks, cryptog
 ![Quotes](https://img.shields.io/badge/Quotes-110+-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-## ✨ Features
+## Features
 
-- **110+ Curated Quotes** from legendary figures in cryptography and digital rights
+- **Curated Quotes** from legendary figures in cryptography and digital rights
 - **Automated Posting** via GitHub Actions (configurable intervals)
 - **Web Dashboard** for browsing, searching, and manually posting quotes
 - **Smart Rotation** - avoids repeating recent quotes
 - **Multi-Relay Publishing** for maximum reach
 - **Clean Attribution** with source and year when available
 
-## 🌟 Featured Voices
+## Featured Voices
 
 The quote database includes wisdom from:
 
@@ -29,26 +29,9 @@ The quote database includes wisdom from:
 | Bruce Schneier | fiatjaf | Cody Wilson |
 | Philip Zimmermann | John Perry Barlow | Richard Stallman |
 
-## 🚀 Quick Start
+## Quick Start
 
-### Option 1: Web Dashboard
-
-The web dashboard allows you to browse quotes and post manually:
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-```
-
-Visit `http://localhost:5173` to access the dashboard.
-
-### Option 2: Automated Bot (GitHub Actions)
+### Option 1: Automated Bot (GitHub Actions)
 
 1. **Fork this repository**
 
@@ -69,7 +52,7 @@ Visit `http://localhost:5173` to access the dashboard.
 
 The bot will automatically post every 4 hours. You can also trigger posts manually from the Actions tab.
 
-### Option 3: Self-Hosted Bot
+### Option 2: Self-Hosted Bot
 
 Run the bot on your own server:
 
@@ -92,7 +75,7 @@ Set up a cron job to run at your desired interval:
 0 */4 * * * cd /path/to/bot && npx tsx bot/index.ts >> bot.log 2>&1
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── src/
@@ -111,7 +94,7 @@ Set up a cron job to run at your desired interval:
     └── post-quote.yml        # GitHub Actions workflow
 ```
 
-## 📊 Quote Database Schema
+## Quote Database Schema
 
 Quotes are stored in `src/data/quotes.json`:
 
@@ -140,7 +123,7 @@ Quotes are stored in `src/data/quotes.json`:
 4. Include at least: `id`, `text`, `author`, `tags`
 5. Update `lastUpdated` timestamp
 
-## ⚙️ Configuration
+## Configuration
 
 ### Bot Configuration
 
@@ -177,7 +160,7 @@ on:
     # - cron: '0 9,21 * * *'
 ```
 
-## 🔑 Environment Variables
+## Environment Variables
 
 | Variable | Description | Required |
 |----------|-------------|----------|
@@ -185,7 +168,7 @@ on:
 | `RELAYS` | Comma-separated relay URLs | No |
 | `STATE_FILE` | Path to state file | No |
 
-## 📝 Example Post Format
+## Example Post Format
 
 ```
 "Privacy is necessary for an open society in the electronic age."
@@ -195,7 +178,7 @@ on:
 #cypherpunk #bitcoin #privacy #freedom #manifesto
 ```
 
-## 🛠️ Development
+## Development
 
 ```bash
 # Install dependencies
@@ -211,11 +194,11 @@ npm run test
 npm run build
 ```
 
-## 📜 License
+## License
 
 MIT License - Feel free to fork and create your own quote bot!
 
-## 🙏 Credits
+## Credits
 
 - Built with [MKStack](https://gitlab.com/soapbox-pub/mkstack) (React + Nostr)
 - Quote sources: Various public domain documents, interviews, and writings
@@ -225,8 +208,4 @@ MIT License - Feel free to fork and create your own quote bot!
 
 <p align="center">
   <i>"Cypherpunks write code."</i> — Eric Hughes
-</p>
-
-<p align="center">
-  <a href="https://shakespeare.diy">Vibed with Shakespeare</a>
 </p>
