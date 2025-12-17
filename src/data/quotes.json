@@ -1679,6 +1679,279 @@
         "politics",
         "warning"
       ]
+    },
+    {
+      "id": "st-jude-001",
+      "text": "The keyboard is the great equalizer — better than the Glock .45.",
+      "author": "St. Jude (Jude Milhon)",
+      "source": "Modem Grrrl (Wired)",
+      "year": 1995,
+      "tags": [
+        "technology",
+        "empowerment",
+        "equality",
+        "defense"
+      ]
+    },
+    {
+      "id": "jerry-brito-001",
+      "text": "A cashless economy is a surveillance economy.",
+      "author": "Jerry Brito",
+      "source": "The Case for Electronic Cash",
+      "year": 2019,
+      "tags": [
+        "cash",
+        "surveillance",
+        "privacy",
+        "economics"
+      ]
+    },
+    {
+      "id": "jerry-brito-002",
+      "text": "Cash is an escape valve in our increasingly intermediated and therefore surveilled world.",
+      "author": "Jerry Brito",
+      "source": "The Case for Electronic Cash",
+      "year": 2019,
+      "tags": [
+        "cash",
+        "privacy",
+        "surveillance",
+        "freedom"
+      ]
+    },
+    {
+      "id": "jerry-brito-003",
+      "text": "In a world without cash (a bearer and peer-to-peer form of money) all transactions must be necessarily intermediated by financial institutions. Intermediated transactions are by their nature subject to surveillance and control.",
+      "author": "Jerry Brito",
+      "source": "The Case for Electronic Cash",
+      "year": 2019,
+      "tags": [
+        "cash",
+        "surveillance",
+        "control",
+        "intermediation"
+      ]
+    },
+    {
+      "id": "jerry-brito-004",
+      "text": "Cash is also necessary to retain agency and autonomy. Autonomy can be understood as the power to make decisions for oneself without interference from others.",
+      "author": "Jerry Brito",
+      "source": "The Case for Electronic Cash",
+      "year": 2019,
+      "tags": [
+        "cash",
+        "autonomy",
+        "freedom",
+        "agency"
+      ]
+    },
+    {
+      "id": "jerry-brito-005",
+      "text": "Cash is more than a method of payment. It is a fundamental tool for individual privacy and autonomy, and it is necessary for an open society.",
+      "author": "Jerry Brito",
+      "source": "The Case for Electronic Cash",
+      "year": 2019,
+      "tags": [
+        "cash",
+        "privacy",
+        "autonomy",
+        "open society"
+      ]
+    },
+    {
+      "id": "jerry-brito-006",
+      "text": "Because cash is permissionless, it is censorship resistant.",
+      "author": "Jerry Brito",
+      "source": "The Case for Electronic Cash",
+      "year": 2019,
+      "tags": [
+        "cash",
+        "censorship",
+        "permissionless",
+        "freedom"
+      ]
+    },
+    {
+      "id": "jerry-brito-007",
+      "text": "As we move to an increasingly online world in which physical cash is not practical for many transactions, we must also develop and foster electronic cash that is as privacy-preserving and permissionless as physical cash.",
+      "author": "Jerry Brito",
+      "source": "The Case for Electronic Cash",
+      "year": 2019,
+      "tags": [
+        "electronic cash",
+        "privacy",
+        "permissionless",
+        "cryptocurrency"
+      ]
+    },
+    {
+      "id": "peter-valkenburgh-001",
+      "text": "Perhaps we never fully understand that balance until one of those secret rights disappears without warning, because no one even knew it mattered until it was gone.",
+      "author": "Peter Valkenburgh",
+      "source": "Your Secret Right to Cash",
+      "year": 2017,
+      "tags": [
+        "rights",
+        "warning",
+        "privacy",
+        "freedom"
+      ]
+    },
+    {
+      "id": "peter-valkenburgh-002",
+      "text": "Cash is also pretty good for privacy because there's no camera that can capture every movement of a dollar bill every time it moves; it just wouldn't work.",
+      "author": "Peter Valkenburgh",
+      "source": "Your Secret Right to Cash",
+      "year": 2017,
+      "tags": [
+        "cash",
+        "privacy",
+        "surveillance",
+        "technology"
+      ]
+    },
+    {
+      "id": "carissa-veliz-001",
+      "text": "Even more than monetary gain, personal data bestows power on those who collect and analyse it, and that is what makes it so coveted.",
+      "author": "Carissa Véliz",
+      "source": "Privacy is power (Aeon)",
+      "year": 2019,
+      "tags": [
+        "data",
+        "power",
+        "surveillance",
+        "privacy"
+      ]
+    },
+    {
+      "id": "carissa-veliz-002",
+      "text": "Google and Facebook are not really in the business of data – they are in the business of power.",
+      "author": "Carissa Véliz",
+      "source": "Privacy is power (Aeon)",
+      "year": 2019,
+      "tags": [
+        "surveillance",
+        "power",
+        "tech companies",
+        "data"
+      ]
+    },
+    {
+      "id": "carissa-veliz-003",
+      "text": "There is power in knowing. By protecting our privacy, we prevent others from being empowered with knowledge about us that can be used against our interests.",
+      "author": "Carissa Véliz",
+      "source": "Privacy is power (Aeon)",
+      "year": 2019,
+      "tags": [
+        "privacy",
+        "power",
+        "knowledge",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "carissa-veliz-004",
+      "text": "Power over others' privacy is the quintessential kind of power in the digital age",
+      "author": "Carissa Véliz",
+      "source": "Privacy is power (Aeon)",
+      "year": 2019,
+      "tags": [
+        "privacy",
+        "power",
+        "digital age",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "carissa-veliz-005",
+      "text": "When you expose your privacy, you put us all at risk.",
+      "author": "Carissa Véliz",
+      "source": "Privacy is power (Aeon)",
+      "year": 2019,
+      "tags": [
+        "privacy",
+        "collective",
+        "warning",
+        "surveillance"
+      ]
+    },
+    {
+      "id": "carissa-veliz-006",
+      "text": "The tech powers that be are nothing without our data.",
+      "author": "Carissa Véliz",
+      "source": "Privacy is power (Aeon)",
+      "year": 2019,
+      "tags": [
+        "data",
+        "power",
+        "resistance",
+        "tech companies"
+      ]
+    },
+    {
+      "id": "moxie-003",
+      "text": "If the federal government had access to every email you've ever written and every phone call you've ever made, it's almost certain that they could find something you've done which violates a provision in the 27,000 pages of federal statues or 10,000 administrative regulations. You probably do have something to hide, you just don't know it yet.",
+      "author": "Moxie Marlinspike",
+      "source": "We Should All Have Something To Hide",
+      "year": 2013,
+      "tags": [
+        "privacy",
+        "surveillance",
+        "law",
+        "nothing to hide"
+      ]
+    },
+    {
+      "id": "moxie-004",
+      "text": "These legal victories would probably not have been possible without the ability to break the law.",
+      "author": "Moxie Marlinspike",
+      "source": "We Should All Have Something To Hide",
+      "year": 2013,
+      "tags": [
+        "law",
+        "civil disobedience",
+        "democracy",
+        "change"
+      ]
+    },
+    {
+      "id": "moxie-005",
+      "text": "If everyone's every action were being monitored, and everyone technically violates some obscure law at some time, then punishment becomes purely selective. Those in power will essentially have what they need to punish anyone they'd like, whenever they choose, as if there were no rules at all.",
+      "author": "Moxie Marlinspike",
+      "source": "We Should All Have Something To Hide",
+      "year": 2013,
+      "tags": [
+        "surveillance",
+        "selective enforcement",
+        "power",
+        "law"
+      ]
+    },
+    {
+      "id": "moxie-006",
+      "text": "If the federal government can't even count how many laws there are, what chance does an individual have of being certain that they are not acting in violation of one of them?",
+      "author": "Moxie Marlinspike",
+      "source": "We Should All Have Something To Hide",
+      "year": 2013,
+      "tags": [
+        "law",
+        "privacy",
+        "surveillance",
+        "government"
+      ]
+    },
+    {
+      "id": "moxie-007",
+      "text": "Tracking everyone is no longer inconceivable, and is in fact happening all the time.",
+      "author": "Moxie Marlinspike",
+      "source": "We Should All Have Something To Hide",
+      "year": 2013,
+      "tags": [
+        "surveillance",
+        "tracking",
+        "privacy",
+        "warning"
+      ]
     }
   ]
 }
