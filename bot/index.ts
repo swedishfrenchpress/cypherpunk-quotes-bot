@@ -84,16 +84,118 @@ function saveState(state: BotState): void {
 }
 
 /**
- * Get a random quote that hasn't been posted recently
+ * Query Nostr for recent posts from the bot to get quote IDs that were actually posted
+ * This helps prevent duplicates even if the state file is lost or reset
  */
-function getRandomQuote(recentIds: string[]): Quote {
+async function getRecentPostedQuoteIds(
+  pubkey: string,
+  relayUrls: string[],
+  daysBack: number = 30
+): Promise<string[]> {
+  const quoteIds: string[] = [];
+  const since = Math.floor((Date.now() - daysBack * 24 * 60 * 60 * 1000) / 1000);
+  
+  // Try to query from at least one relay
+  for (const url of relayUrls) {
+    let relay: Relay | null = null;
+    try {
+      console.log(`Querying ${url} for recent posts...`);
+      relay = await Relay.connect(url);
+      
+      // Collect events from subscription
+      const events: NostrEvent[] = [];
+      let subscriptionClosed = false;
+      
+      // Query for kind 1 events from this bot
+      const sub = relay.subscribe([
+        {
+          kinds: [1],
+          authors: [pubkey],
+          since,
+          limit: 100,
+        }
+      ], {
+        onevent: (event) => {
+          events.push(event);
+        },
+        oneose: () => {
+          subscriptionClosed = true;
+        }
+      });
+      
+      // Wait for events to come in (with timeout)
+      await new Promise<void>((resolve) => {
+        const timeout = setTimeout(() => {
+          if (!subscriptionClosed) {
+            sub.close();
+          }
+          resolve();
+        }, 5000); // 5 second timeout
+        
+        // Also try to close after collecting events for a bit
+        setTimeout(() => {
+          clearTimeout(timeout);
+          if (!subscriptionClosed) {
+            sub.close();
+          }
+          resolve();
+        }, 3000);
+      });
+      
+      // Extract quote IDs from collected events
+      for (const event of events) {
+        const quoteIdTag = event.tags.find(tag => tag[0] === 'quote_id');
+        if (quoteIdTag && quoteIdTag[1]) {
+          quoteIds.push(quoteIdTag[1]);
+        }
+      }
+      
+      // If we got results from this relay, we can break early
+      if (quoteIds.length > 0) {
+        console.log(`Found ${quoteIds.length} quote IDs from ${url}`);
+        break;
+      }
+      
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'Unknown error';
+      console.log(`⚠️  Could not query ${url}: ${message}`);
+    } finally {
+      if (relay) {
+        await new Promise(resolve => setTimeout(resolve, 500));
+        relay.close();
+      }
+    }
+  }
+  
+  // Remove duplicates and return
+  return [...new Set(quoteIds)];
+}
+
+/**
+ * Get a random quote that hasn't been posted recently
+ * Combines state file data with actual Nostr posts for better duplicate prevention
+ */
+async function getRandomQuote(
+  recentIds: string[],
+  pubkey: string,
+  relayUrls: string[]
+): Promise<Quote> {
   const quotes = quotesData.quotes as Quote[];
-  const recentSet = new Set(recentIds.slice(-50)); // Avoid last 50 quotes
+  
+  // Query Nostr for recently posted quote IDs
+  console.log('Checking Nostr for recently posted quotes...');
+  const nostrQuoteIds = await getRecentPostedQuoteIds(pubkey, relayUrls, 30);
+  console.log(`Found ${nostrQuoteIds.length} quote IDs from Nostr posts`);
+  
+  // Combine state file IDs with Nostr IDs
+  const allRecentIds = [...new Set([...recentIds, ...nostrQuoteIds])];
+  const recentSet = new Set(allRecentIds.slice(-100)); // Check last 100 quotes (increased from 50)
   
   const availableQuotes = quotes.filter(q => !recentSet.has(q.id));
   
   // If we've used all quotes, reset
   if (availableQuotes.length === 0) {
+    console.log('⚠️  All quotes have been posted recently. Selecting random quote anyway.');
     const randomIndex = Math.floor(Math.random() * quotes.length);
     return quotes[randomIndex];
   }
@@ -143,6 +245,10 @@ function generateTags(quote: Quote): string[][] {
   // Add author as tag (normalized to remove dashes and spaces)
   const authorTag = normalizeHashtag(quote.author);
   tags.push(['t', authorTag]);
+  
+  // Add quote ID tag for duplicate prevention
+  // This allows us to query Nostr to see which quotes were actually posted
+  tags.push(['quote_id', quote.id]);
   
   // Add client tag
   tags.push(['client', 'Cypherpunk Quotes Bot']);
@@ -267,8 +373,8 @@ async function main(): Promise<void> {
   
   console.log('Relays:', relays.join(', '), '\n');
   
-  // Select a random quote
-  const quote = getRandomQuote(state.recentQuoteIds);
+  // Select a random quote (checks both state file and Nostr)
+  const quote = await getRandomQuote(state.recentQuoteIds, pubkey, relays);
   console.log(`Selected quote by: ${quote.author}`);
   console.log(`Quote ID: ${quote.id}\n`);
   
@@ -303,9 +409,9 @@ async function main(): Promise<void> {
   state.lastPostTimestamp = Date.now();
   state.totalPostsCount += 1;
   
-  // Keep only last 50 quote IDs
-  if (state.recentQuoteIds.length > 50) {
-    state.recentQuoteIds = state.recentQuoteIds.slice(-50);
+  // Keep only last 100 quote IDs (increased to match getRandomQuote)
+  if (state.recentQuoteIds.length > 100) {
+    state.recentQuoteIds = state.recentQuoteIds.slice(-100);
   }
   
   saveState(state);
