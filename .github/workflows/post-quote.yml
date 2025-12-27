@@ -5,16 +5,16 @@
 # Setup:
 # 1. Generate a Nostr keypair for your bot
 # 2. Add NOSTR_PRIVATE_KEY as a repository secret (hex or nsec format)
-# 3. The workflow will run automatically every 4 hours
+# 3. The workflow will run automatically every 8 hours
 #
 # You can also trigger it manually from the Actions tab.
 
 name: Post Quote to Nostr
 
 on:
-  # Run every 4 hours
+  # Run every 8 hours
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 */8 * * *'
   
   # Allow manual triggers
   workflow_dispatch:

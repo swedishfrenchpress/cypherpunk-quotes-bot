@@ -16,7 +16,7 @@ export const DEFAULT_BOT_CONFIG: BotConfig = {
     'wss://relay.primal.net',
     'wss://relay.ditto.pub',
   ],
-  intervalHours: 4,
+  intervalHours: 8,
   hashtags: ['cypherpunk', 'bitcoin', 'privacy', 'freedom'],
 };
 
