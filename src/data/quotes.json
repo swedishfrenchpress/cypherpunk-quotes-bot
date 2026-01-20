@@ -2149,6 +2149,58 @@
         "government",
         "politics"
       ]
+    },
+    {
+      "id": "steven-levy-009",
+      "text": "The government used to actually be able to control powerful crypto, because none of it existed outside its control. When the cow is in the barn, it's simple to keep it in the barn. But when an independent community started making breakthroughs and publishing papers, the task became more difficult.",
+      "author": "Steven Levy",
+      "source": "The WELL - Crypto Discussion",
+      "year": 2001,
+      "tags": [
+        "government",
+        "cryptography",
+        "control",
+        "freedom"
+      ]
+    },
+    {
+      "id": "steven-levy-010",
+      "text": "By the 1990s, at the NSA at least, they figured out that it was impossible to totally snuff the stuff, and that there was a need for some form of crypto for citizens. So the idea was to keep the strong stuff out of general usage, by banning its export.",
+      "author": "Steven Levy",
+      "source": "The WELL - Crypto Discussion",
+      "year": 2001,
+      "tags": [
+        "nsa",
+        "cryptography",
+        "export laws",
+        "government"
+      ]
+    },
+    {
+      "id": "steven-levy-011",
+      "text": "The law enforcement folks were stuck longer in the hard-core phase, and still are, even now using Bin Laden to suggest that crypto has GONE TOO FAR, damn it.",
+      "author": "Steven Levy",
+      "source": "The WELL - Crypto Discussion",
+      "year": 2001,
+      "tags": [
+        "law enforcement",
+        "cryptography",
+        "government",
+        "terrorism"
+      ]
+    },
+    {
+      "id": "steven-levy-012",
+      "text": "The Clinton people were ripe for plucking. They didn't want to alienate the hard-liners. They were intimidated by sudden responsibility. And they were manipulated by the NSA and FBI, who gave them three choices: let crypto run free (and suffer the consequences of people dead in the streets), ban crypto totally (risking riots in Silicon Valley), or take the alleged middle-road, a supposedly plug ready key escrow path that had, well, something for everybody.",
+      "author": "Steven Levy",
+      "source": "The WELL - Crypto Discussion",
+      "year": 2001,
+      "tags": [
+        "government",
+        "clinton",
+        "key escrow",
+        "politics"
+      ]
     }
   ]
 }
