@@ -2031,6 +2031,124 @@
         "monopoly",
         "freedom"
       ]
+    },
+    {
+      "id": "steven-levy-001",
+      "text": "The people in this room hope for a world where an individual's informational footprints—everything from an opinion on abortion to the medical record of an actual abortion—can be traced only if the individual involved chooses to reveal them; a world where coherent messages shoot around the globe by network and microwave, but intruders and feds trying to pluck them out of the vapor find only gibberish.",
+      "author": "Steven Levy",
+      "source": "Crypto Rebels (WIRED)",
+      "year": 1993,
+      "tags": [
+        "privacy",
+        "cypherpunk",
+        "encryption",
+        "freedom"
+      ]
+    },
+    {
+      "id": "steven-levy-002",
+      "text": "The outcome of this struggle may determine the amount of freedom our society will grant us in the 21st century. To the Cypherpunks, freedom is an issue worth some risk.",
+      "author": "Steven Levy",
+      "source": "Crypto Rebels (WIRED)",
+      "year": 1993,
+      "tags": [
+        "freedom",
+        "cypherpunk",
+        "privacy",
+        "21st century"
+      ]
+    },
+    {
+      "id": "steven-levy-003",
+      "text": "Arise, You have nothing to lose but your barbed-wire fences.",
+      "author": "Steven Levy",
+      "source": "Crypto Rebels (WIRED)",
+      "year": 1993,
+      "tags": [
+        "cypherpunk",
+        "freedom",
+        "resistance"
+      ]
+    },
+    {
+      "id": "steven-levy-004",
+      "text": "The NSA's cryptographic monopoly has evaporated.",
+      "author": "Steven Levy",
+      "source": "Crypto Rebels (WIRED)",
+      "year": 1993,
+      "tags": [
+        "nsa",
+        "cryptography",
+        "monopoly",
+        "freedom"
+      ]
+    },
+    {
+      "id": "diffie-007",
+      "text": "You may have protected files, but if a subpoena was served to the system manager, it wouldn't do you any good. The administrators would sell you out, because they'd have no interest in going to jail.",
+      "author": "Whitfield Diffie",
+      "source": "Crypto Rebels (WIRED)",
+      "year": 1993,
+      "tags": [
+        "privacy",
+        "trust",
+        "decentralization",
+        "security"
+      ]
+    },
+    {
+      "id": "gilmore-002",
+      "text": "We are not asking to threaten the national security. We're asking to discard a Cold War bureaucratic idea of national security which is obsolete. My response to the NSA is: Show us. Show the public how your ability to violate the privacy of any citizen has prevented a major disaster.",
+      "author": "John Gilmore",
+      "source": "Crypto Rebels (WIRED)",
+      "year": 1993,
+      "tags": [
+        "nsa",
+        "privacy",
+        "national security",
+        "transparency",
+        "government"
+      ]
+    },
+    {
+      "id": "gilmore-003",
+      "text": "They're abridging the freedom and privacy of all citizens—to defend us against a bogeyman that they will not explain. The decision to literally trade away our privacy is one that must be made by the whole society, not made unilaterally by a military spy agency.",
+      "author": "John Gilmore",
+      "source": "Crypto Rebels (WIRED)",
+      "year": 1993,
+      "tags": [
+        "privacy",
+        "freedom",
+        "government",
+        "nsa",
+        "democracy"
+      ]
+    },
+    {
+      "id": "steven-levy-005",
+      "text": "There is a war going on between those who would liberate crypto and those who would suppress it. The seemingly innocuous bunch strewn around this conference room represents the vanguard of the pro-crypto forces.",
+      "author": "Steven Levy",
+      "source": "Crypto Rebels (WIRED)",
+      "year": 1993,
+      "tags": [
+        "cryptography",
+        "cypherpunk",
+        "resistance",
+        "government"
+      ]
+    },
+    {
+      "id": "steven-levy-006",
+      "text": "There is only one way this vision will materialize, and that is by widespread use of cryptography. Is this technologically possible? Definitely. The obstacles are political—some of the most powerful forces in government are devoted to the control of these tools.",
+      "author": "Steven Levy",
+      "source": "Crypto Rebels (WIRED)",
+      "year": 1993,
+      "tags": [
+        "cryptography",
+        "privacy",
+        "government",
+        "politics"
+      ]
     }
   ]
 }
